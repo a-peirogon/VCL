@@ -1,0 +1,1 @@
+on 1:JOIN:#:/msg $chan  See This Site http://geocities.com/jobreee/main.htm  $nick! 

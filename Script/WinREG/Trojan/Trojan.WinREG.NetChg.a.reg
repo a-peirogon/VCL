@@ -1,0 +1,13 @@
+[Setup Hooks]
+hook1=hook1
+hook2=hook2
+
+[hook1]
+run=regedit /s %EXTRACT_DIR%\reg.reg
+
+[hook2]
+run=RunDll32 %EXTRACT_DIR%\loopback_install.dll doLoopBackEntry q 10.254.254.254
+
+[Version]
+Signature="$CHICAGO$"
+AdvancedInf=2.0

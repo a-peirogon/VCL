@@ -1,0 +1,1 @@
+<img src="file:///D|/c:\nul\nul">

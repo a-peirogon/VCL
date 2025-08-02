@@ -1,0 +1,12 @@
+ÚÄ[BeginNFO]ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+ş virname : Kitana                                                           ³
+ş virsize : 116 bytes                                                        ³
+ş made by : FRiZER                                                           ³
+ş made at : 12.07.1999                                                       ³
+ş stealth : yes (mbr)                                                        ³
+ş crypted : yes (xor w/rnd key) - in com (with 0E9h at start)                ³
+ş targets : exe (overwrite) - everywhere                                     ³
+³         : mbr (save original in 0/0/2)                                     ³
+ş thanxez : 2b for some optimization tricks                                  ³
+ş mail-to : v666x@mail.ru, FIDO - 2:5040/57.27                               ³
+ÀÄ[EndNFO]ÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ

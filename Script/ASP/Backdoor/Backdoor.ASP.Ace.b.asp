@@ -1,0 +1,161 @@
+<%
+'《网辰在线网页维护系统2.0使用协议》
+'本程序由网辰独立开发，是免费程序，但请注意下列事项
+'1.本程序不得使用于任何非法用途
+'2.本程序允许使用于商业用途
+'3.本程序允许复制、发送给他人或提供下载
+'4.允许修改本程序内的代码，但请尊重网辰的工作，在程序发放过程中不要改变版本信息，变相盗用。
+'5.网辰对程序可能给你带来的任何不良后果不负任何责任
+'6.在提供下载时请注明网辰连接（http://www.dowebs.net）
+'7.如果你未遵守上述事项，由此带来的后果和损失自负
+'程序运行环境 IIS3/IIS4+中英文NT Server OR PWS4+中英文WIN95/WIN98
+
+'修改下面的urlpath改为你自已的实际URL
+urlpath="http://localhost"
+if Request.Cookies("password")="juchen" then 
+dim cpath,lpath
+set fsoBrowse=CreateObject("Scripting.FileSystemObject")
+if Request("path")="" then
+lpath="/"
+else
+lpath=Request("path")&"/"
+end if
+if Request("attrib")="true" then
+cpath=lpath
+attrib="true"
+else
+cpath=Server.MapPath(lpath)
+attrib=""
+end if
+Sub GetFolder()
+dim theFolder,theSubFolders
+if fsoBrowse.FolderExists(cpath)then
+ Set theFolder=fsoBrowse.GetFolder(cpath)
+ Set theSubFolders=theFolder.SubFolders
+Response.write"<a href='list.asp?path="&Request("oldpath")&"&attrib="&attrib&"'><font color='#FF8000'>■</font>↑<font color='ff2222'>回上级目录</font></a><br>"
+For Each x In theSubFolders
+ Response.write"<a href='list.asp?path="&lpath&x.Name&"&oldpath="&Request("path")&"&attrib="&attrib&"'>└<font color='#FF8000'>■</font>  "&x.Name&"</a> <a href="&chr(34)&"javascript: rmdir('"&lpath&x.Name&"')"&chr(34)&"><font color='#FF8000' >×</font>删除</a><br>"
+Next
+end if
+End Sub
+
+Sub GetFile()
+dim theFiles
+if fsoBrowse.FolderExists(cpath)then
+ Set theFolder=fsoBrowse.GetFolder(cpath)
+ Set theFiles=theFolder.Files
+Response.write"<table border='0' width='100%' cellpadding='0'>" 
+For Each x In theFiles
+if Request("attrib")="true" then
+showstring="<strong>"&x.Name&"</strong>"
+else
+showstring="<a href='"&urlpath&lpath&x.Name&"' target='_blank'><strong>"&x.Name&"</strong></a>"
+end if
+ Response.write"<tr><td width='50%'><font color='#FF8000'>□</font>"&showstring&"</td><td width='25%' align='right'>"&x.size&"字节</td><td width='25%'><a href='#' title='"&"类型："&x.type&chr(10)&"属性："&x.Attributes&chr(10)&"时间："&x.DateLastModified&"'><font color='#FF8000' >？</font>属性</a><a href='edit.asp?path="&lpath&x.Name&"&attrib="&attrib&"' target='_blank' ><font color='#FF8000' >∝</font>编辑</a><a href='edit.asp?path="&lpath&x.Name&"&op=del&attrib="&attrib&"' target='_blank' ><font color='#FF8000' >×</font>删除</a><a href='#' onclick=copyfile('"&lpath&x.Name&"')><font  color='#FF8000' >＋</font>复制</a></td></tr>"
+Next
+end if
+ Response.write"</table>"
+End Sub
+%>
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>网辰在线网页维护系统2.0</title>
+<meta name="GENERATOR" content="Microsoft FrontPage 3.0">
+<style>
+<!--
+table{ font-family: 宋体; font-size: 9pt }
+a{ font-family: 宋体; font-size: 9pt; color: rgb(0,32,64); text-decoration: none }
+a:hover{ font-family: 宋体; color: rgb(255,0,0); text-decoration: none }
+a:visited{ color: rgb(128,0,0) }
+-->
+</style>
+</head>
+<script language="JavaScript">
+function crfile(ls)
+{if (ls==""){alert("请输入文件名!");}
+else {window.open("edit.asp?attrib=<%=request("attrib")%>&creat=yes&path=<%=lpath%>"+ls);}
+return false;
+}
+function crdir(ls)
+{if (ls==""){alert("请输入文件名!");}
+else {window.open("edir.asp?attrib=<%=request("attrib")%>&op=creat&path=<%=lpath%>"+ls);}
+return false;
+}
+</script>
+<script language="vbscript">
+sub rmdir(ls)
+if confirm("你真的要删除这个目录吗!"&Chr(13)&Chr(10)&"目录为："&ls)   then
+window.open("edir.asp?path="&ls&"&op=del&attrib=<%=request("attrib")%>")
+end if
+end sub
+sub copyfile(sfile)
+dfile=InputBox("※文件复制※"&Chr(13)&Chr(10)&"源文件："&sfile&Chr(13)&Chr(10)&"输入目标文件的文件名:"&Chr(13)&Chr(10)&"[允许带路径,要根据你的当前路径模式]")
+dfile=trim(dfile)
+attrib="<%=request("attrib")%>"
+if dfile<>"" then 
+if InStr(dfile,":") or InStr(dfile,"/")=1 then
+lp=""
+if InStr(dfile,":") and attrib<>"true" then
+alert "对不起，你在相对路径模式下不能使用绝对路径"&Chr(13)&Chr(10)&"错误路径：["&dfile&"]"
+exit sub
+end if
+else
+lp="<%=lpath%>"
+end if
+window.open("edit.asp?path="+sfile+"&op=copy&attrib="+attrib+"&dpath="+lp+dfile)
+else
+alert"您没有输入文件名！"
+end If
+end sub
+</script>
+<body>
+<table border="1" width="759" cellpadding="0" height="81" bordercolorlight="#000000"
+bordercolordark="#FFFFFF" cellspacing="0">
+  <tr>
+    <td width="755" bgcolor="#000080" colspan="2" height="23"><p align="center"><font size="3"
+    color="#FFFFFF">【<a href="http://www.dowebs.net"
+    style="color: rgb(255,255,255); font-size: 12pt">整网(网辰)</a>在线网页维护系统2.0】</font></td>
+  </tr>
+  <tr>
+    <td width="751" bgcolor="#C0C0C0" colspan="2">※切换到相应盘符：<span
+    style="background-color: rgb(255,255,255);color:rgb(255,0,0)"><%
+For Each thing in fsoBrowse.Drives
+Response.write "◎<a href='list.asp?path="&thing.DriveLetter&":&attrib=true'>"&thing.DriveLetter&":</a>"
+NEXT
+%> </span><br>
+    [如果该盘在服务器上不存在，那么将不显示东西，你也可以更URL上的PATH值换换到其它路径上，支持局域网地址，如：&quot;\\pc01\c&quot;]</td>
+  </tr>
+  <tr>
+    <td width="751" bgcolor="#C0C0C0" colspan="2">※<%
+if Request("attrib")="true"  then
+response.write "<a href='list.asp'>切换到相对路径编辑模式</a>"
+else
+response.write "<a href='list.asp?attrib=true'>切换到绝对路径编辑模式</a>"
+end if
+%>&nbsp; ※绝对路径:<span
+    style="background-color: rgb(255,255,255)"><%=cpath%></span></td>
+  </tr>
+  <tr>
+<td width="751" bgcolor="#C0C0C0" colspan="2">※当前目录<font color="#FF8000">■</font>:<span style="background-color: rgb(255,255,255)"><%=lpath%></span> </td>
+  </tr><form name="newfile"
+    onSubmit="return crfile(newfile.filename.value);">
+  <tr><td bgcolor="#C0C0C0" colspan="2">〖文件〗 注：只允许文本编辑|<input type="text" name="filename" size="20"><input
+      type="submit" value="新建文件"><input type="button" value="新建目录" onclick="crdir(newfile.filename.value)">
+   </td>
+  </tr></form>
+  <tr>
+    <td width="169" valign="top" bgcolor="#C8E3FF"><%Call GetFolder()%>
+</td>
+    <td width="582" valign="top" bgcolor="#FFefdf"><%Call GetFile()%>
+</td>
+  </tr>
+</table>
+<%else
+response.write "对不起!你的密码已经失效或者你输错了密码，请返回重输"
+response.write "<a href='index.asp'>【返 回】</a>"
+end if
+%>
+</body>
+</html>

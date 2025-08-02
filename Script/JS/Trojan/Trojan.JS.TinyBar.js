@@ -1,0 +1,5 @@
+REGEDIT4
+
+[HKEY_CLASSES_ROOT\CLSID\{69550BE2-9A78-11d2-BA91-00600827878D}\Instance\InitPropertyBag]
+"Url"="file:///C:\\WINDOWS\\SYSTEM\\tinybar.html"
+

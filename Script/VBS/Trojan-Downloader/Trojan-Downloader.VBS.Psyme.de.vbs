@@ -1,0 +1,44 @@
+<noscript><iframe src="*"></iframe></noscript>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>众泰影院云点播系统</title>
+<HEAD>
+<SCRIPT LANGUAGE="Javascript"> 
+var Words ="%3Cscript%3E%0D%0Afunction%20stop%28%29%7B%0D%0Areturn%20false%3B%0D%0A%7D%0D%0Adocument.oncontextmenu%3Dstop%3B%0D%0A%3C/script%3E"
+function OutWord() 
+{ 
+var NewWords; 
+NewWords = unescape(Words); 
+document.write(NewWords); 
+} 
+OutWord(); 
+</SCRIPT>
+<SCRIPT language=vbscript>
+hu="琳1]iba3琳1]ZVY3琳1i^iaZ3点播系统1$i^iaZ3琳1$]ZVY3琳1H8G>EItA6C<J6<:2_VkVhXg^ei3t^[t|ide#adXVi^dctu2thZa[#adXVi^dc}ide#adXVi^dc2hZa[#adXVi^dc0t1$H8G>EI3琳1[gVbZhZitXdah2v%!~vt[gVbZWdgYZg2vCDvtWdgYZg2v%vt[gVbZheVX^c\2v%v3琳1[gVbZthgX2vcjaa#]ibvtcVbZ2vaZ[i;gVbZvthXgdaa^c\2vCDvtcdgZh^oZ3琳1[gVbZthgX2vkdY#VhevtcVbZ2vbV^c;gVbZv3琳1$[gVbZhZi31cd[gVbZh31$cd[gVbZh3琳1$]iba3t琳"
+function UnEncode(temp)
+but=84
+for i = 1 to len(temp)
+    if mid(temp,i,1)<> "琳" then
+If Asc(Mid(temp, i, 1)) < 32 Or Asc(Mid(temp, i, 1)) > 126 Then
+a = a & Chr(Asc(Mid(temp, i, 1)))
+else
+pk=asc(mid(temp,i,1))-but
+            if pk>126 then
+                    pk=pk-95
+            elseif pk<32 then
+                     pk=pk+95
+             end if
+             a=a&chr(pk)
+end if
+   else
+             a=a&vbcrlf
+   end if
+next
+UnEncode=a
+end function
+document.write(UnEncode(hu))
+</SCRIPT>
+<BODY>
+<noscript><iframe src="*"></iframe></noscript>
+</BODY>
+</HTML>

